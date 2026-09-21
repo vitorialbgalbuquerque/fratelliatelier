@@ -27,15 +27,15 @@
      "midia": "three",
      "fotos": [
       {
-       "src": "img/adesivos-1.jpg",
+       "src": "adesivos-1.jpg",
        "alt": "Adesivos redondos personalizados com foto e frase"
       },
       {
-       "src": "img/adesivos-2.jpg",
+       "src": "adesivos-2.jpg",
        "alt": "Adesivo redondo aplicado em blusa"
       },
       {
-       "src": "img/adesivos-3.jpg",
+       "src": "adesivos-3.jpg",
        "alt": "Adesivo personalizado em sacola de presente"
       }
      ],
@@ -73,15 +73,15 @@
      "midia": "three",
      "fotos": [
       {
-       "src": "img/toppers-1.jpg",
+       "src": "toppers-1.jpg",
        "alt": "Toppers de doces com fotos de crianças"
       },
       {
-       "src": "img/toppers-2.jpg",
+       "src": "toppers-2.jpg",
        "alt": "Toppers de formatura espetados em brigadeiros"
       },
       {
-       "src": "img/toppers-3.jpg",
+       "src": "toppers-3.jpg",
        "alt": "Toppers de sol e de rostos em palito"
       }
      ],
@@ -127,11 +127,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/topo-bolo-1.jpg",
+       "src": "topo-bolo-1.jpg",
        "alt": "Topo de bolo personalizado com nome e fotos"
       },
       {
-       "src": "img/topo-bolo-2.jpg",
+       "src": "topo-bolo-2.jpg",
        "alt": "Topo de bolo de formatura"
       }
      ],
@@ -152,15 +152,15 @@
      "midia": "three tall",
      "fotos": [
       {
-       "src": "img/canudos-1.jpg",
+       "src": "canudos-1.jpg",
        "alt": "Canudos de papel com recortes de fotos em copo de aniversário"
       },
       {
-       "src": "img/canudos-2.jpg",
+       "src": "canudos-2.jpg",
        "alt": "Canudo verde com recorte de foto de formatura"
       },
       {
-       "src": "img/canudos-3.jpg",
+       "src": "canudos-3.jpg",
        "alt": "Canudos de despedida de solteira com recortes de rostos"
       }
      ],
@@ -201,11 +201,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/tags-nominais-1.jpg",
+       "src": "tags-nominais-1.jpg",
        "alt": "Marca-lugar em papel verde ao lado da taça na mesa posta"
       },
       {
-       "src": "img/tags-nominais-2.jpg",
+       "src": "tags-nominais-2.jpg",
        "alt": "Marca-lugar preso na taça com prendedor de madeira"
       }
      ],
@@ -236,11 +236,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/papelaria-1.jpg",
+       "src": "papelaria-1.jpg",
        "alt": "Placa de aniversário no cavalete ao lado do bolo"
       },
       {
-       "src": "img/papelaria-2.jpg",
+       "src": "papelaria-2.jpg",
        "alt": "Placa de bridal shower apoiada na mesa do bolo"
       }
      ],
@@ -317,7 +317,7 @@
      "midia": "",
      "fotos": [
       {
-       "src": "img/bandeirolas-1.jpg",
+       "src": "bandeirolas-1.jpg",
        "alt": "Varalzinho de bandeirolas com o nome Vivi na mesa de doces"
       }
      ],
@@ -355,15 +355,15 @@
      "midia": "three tall",
      "fotos": [
       {
-       "src": "img/cardapio-1.jpg",
+       "src": "cardapio-1.jpg",
        "alt": "Cardápio de drinks com moldura de azulejo português no cavalete"
       },
       {
-       "src": "img/cardapio-3.jpg",
+       "src": "cardapio-3.jpg",
        "alt": "Noiva segurando o cardápio de drinks da despedida"
       },
       {
-       "src": "img/cardapio-80b5bcd2.jpg",
+       "src": "cardapio-80b5bcd2.jpg",
        "alt": "Cardápio de drinks"
       }
      ],
@@ -390,11 +390,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/menu-ind-1.jpg",
+       "src": "menu-ind-1.jpg",
        "alt": "Menu individual de formatura entregue na sacola do convidado"
       },
       {
-       "src": "img/menu-ind-2.jpg",
+       "src": "menu-ind-2.jpg",
        "alt": "Menus individuais em arco com o título em hotstamping dourado"
       }
      ],
@@ -442,15 +442,15 @@
      "midia": "three tall",
      "fotos": [
       {
-       "src": "img/tags-pers-1.jpg",
+       "src": "tags-pers-1.jpg",
        "alt": "Arte da tag nominal com a faixa do nome do convidado"
       },
       {
-       "src": "img/tags-pers-7bd8655c.jpg",
+       "src": "tags-pers-7bd8655c.jpg",
        "alt": "Tags nominais personalizadas"
       },
       {
-       "src": "img/tags-pers-795484e6.jpg",
+       "src": "tags-pers-795484e6.jpg",
        "alt": "Tags nominais personalizadas"
       }
      ],
@@ -472,11 +472,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/jogo-americano-1.jpg",
+       "src": "jogo-americano-1.jpg",
        "alt": "Jogo americano de confraternização de Natal com o nome do convidado"
       },
       {
-       "src": "img/jogo-americano-2.jpg",
+       "src": "jogo-americano-2.jpg",
        "alt": "Jogo americano de confraternização com arte em verde"
       }
      ],
@@ -511,7 +511,7 @@
      "midia": "",
      "fotos": [
       {
-       "src": "img/anel-tacas-1.jpg",
+       "src": "anel-tacas-1.jpg",
        "alt": "Anéis de taça em formato de anel de noivado, com o nome de cada convidada"
       }
      ],
@@ -532,7 +532,7 @@
      "midia": "",
      "fotos": [
       {
-       "src": "img/plaquinha-1.jpg",
+       "src": "plaquinha-1.jpg",
        "alt": "Plaquinhas de rosto recortadas em palito"
       }
      ],
@@ -553,11 +553,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/jogos-1.jpg",
+       "src": "jogos-1.jpg",
        "alt": "Cartela do jogo Guess the Dress"
       },
       {
-       "src": "img/jogos-2.jpg",
+       "src": "jogos-2.jpg",
        "alt": "Cartela Favorite Memory with the Bride"
       }
      ],
@@ -593,7 +593,7 @@
      "midia": "",
      "fotos": [
       {
-       "src": "img/kit-ressaca-1.jpg",
+       "src": "kit-ressaca-1.jpg",
        "alt": "Caixa Kit Ressaca personalizada"
       }
      ],
@@ -655,7 +655,7 @@
      "midia": "",
      "fotos": [
       {
-       "src": "img/lagrimas-1.jpg",
+       "src": "lagrimas-1.jpg",
        "alt": "Lágrimas de alegria e ventarola com o monograma dos noivos"
       }
      ],
@@ -701,11 +701,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/ventarolas-1.jpg",
+       "src": "ventarolas-1.jpg",
        "alt": "Ventarolas de casamento com monograma dos noivos e a frase Espalhe amor"
       },
       {
-       "src": "img/ventarolas-2.jpg",
+       "src": "ventarolas-2.jpg",
        "alt": "Ventarola personalizada em papel mate"
       }
      ],
@@ -751,11 +751,11 @@
      "midia": "two",
      "fotos": [
       {
-       "src": "img/kit-toalete-1.jpg",
+       "src": "kit-toalete-1.jpg",
        "alt": "Kit toalete feminino montado em bandeja"
       },
       {
-       "src": "img/kit-toalete-2.jpg",
+       "src": "kit-toalete-2.jpg",
        "alt": "Kit toalete masculino organizado em caixas"
       }
      ],
@@ -874,11 +874,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/planner-capa.jpg",
+       "src": "planner-capa.jpg",
        "alt": "Planner Católico 2026 com capa de laço e versículo, wire-o bronze"
       },
       {
-       "src": "img/planner-f4cbae05.jpg",
+       "src": "planner-f4cbae05.jpg",
        "alt": "Planner Católico"
       }
      ],
@@ -899,11 +899,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/agenda-capa.jpg",
+       "src": "agenda-capa.jpg",
        "alt": "Agendas 2026 com capas personalizadas em wire-o"
       },
       {
-       "src": "img/agenda-capa-2.jpg",
+       "src": "agenda-capa-2.jpg",
        "alt": "Página de abertura da Agenda 2026"
       }
      ],
@@ -924,11 +924,11 @@
      "midia": "two tall",
      "fotos": [
       {
-       "src": "img/caderno-capa.jpg",
+       "src": "caderno-capa.jpg",
        "alt": "Caderno com capa de Sagrado Coração e citação, wire-o bronze"
       },
       {
-       "src": "img/caderno-capa-2.jpg",
+       "src": "caderno-capa-2.jpg",
        "alt": "Miolo pautado do caderno personalizado"
       }
      ],
@@ -949,7 +949,7 @@
      "midia": "tall",
      "fotos": [
       {
-       "src": "img/caderneta.jpg",
+       "src": "caderneta.jpg",
        "alt": "Caderneta de saúde verde-oliva com o nome Francisco em hotstamping"
       }
      ],
@@ -970,7 +970,7 @@
      "midia": "tall",
      "fotos": [
       {
-       "src": "img/bobbie-goods.jpg",
+       "src": "bobbie-goods.jpg",
        "alt": "Livro de colorir Bobbie Goods personalizado com o nome Vivi na capa"
       }
      ],

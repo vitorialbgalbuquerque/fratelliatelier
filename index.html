@@ -2,12 +2,1613 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>Fratelli Atelier — administração</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Fratelli Atelier — Papelaria Personalizada</title>
+<meta name="description" content="Papelaria personalizada em Recife: adesivos, tags, cardápios, toppers, placas, planners e Havaianas Color. Monte o pedido pelo site e feche pelo WhatsApp.">
+
+<!-- ===================================================================== -->
+<!--  TROQUE "fratelliatelier.com.br" pelo seu domínio nas 3 linhas abaixo  -->
+<!-- ===================================================================== -->
+<link rel="canonical" href="https://fratelliatelier.com.br/">
+<meta property="og:url" content="https://fratelliatelier.com.br/">
+<meta property="og:image" content="https://fratelliatelier.com.br/og.jpg">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fratelli Atelier">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Fratelli Atelier — Papelaria Personalizada">
+<meta property="og:description" content="Adesivos, tags, cardápios, toppers, placas, planners e Havaianas Color. Monte o pedido pelo site e feche pelo WhatsApp.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FBF7F5">
+
+<link rel="icon" href="favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Fratelli Atelier",
+  "description": "Papelaria personalizada para festas, casamentos e despedidas de solteira.",
+  "image": "https://fratelliatelier.com.br/og.jpg",
+  "telephone": "+558130725097",
+  "address": { "@type": "PostalAddress", "addressLocality": "Recife", "addressRegion": "PE", "addressCountry": "BR" },
+  "sameAs": ["https://www.instagram.com/fratelli.atelier/"]
+}
+</script>
+
+<style>
+:root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{-webkit-tap-highlight-color:transparent}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prata&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --paper:#FBF7F5;
+  --surface:#FFFFFF;
+  --surface-2:#F6EEF4;
+  --ink:#3A2C3C;
+  --ink-2:#6F6172;
+  --ink-3:#938698;
+  --line:#E8DCE5;
+  --line-strong:#D6C2D4;
+  --lilac:#C089BE;
+  --lilac-deep:#89507F;
+  --lilac-soft:#F1E3F0;
+  --wa:#1E9E52;
+  --wa-ink:#FFFFFF;
+  --shadow:0 1px 2px rgba(58,44,60,.05), 0 8px 24px -12px rgba(58,44,60,.18);
+  --display:"Prata", "Iowan Old Style", Georgia, serif;
+  --body:"Karla", "Helvetica Neue", Arial, sans-serif;
+  --maxw:1120px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#1F1822;
+    --surface:#28202C;
+    --surface-2:#312638;
+    --ink:#F3EAF2;
+    --ink-2:#C0B0C2;
+    --ink-3:#95879A;
+    --line:#413649;
+    --line-strong:#57485F;
+    --lilac:#D4A4D2;
+    --lilac-deep:#E7C6E5;
+    --lilac-soft:#3A2D42;
+    --wa:#27B662;
+    --wa-ink:#0F2A19;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 28px -14px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#1F1822;
+  --surface:#28202C;
+  --surface-2:#312638;
+  --ink:#F3EAF2;
+  --ink-2:#C0B0C2;
+  --ink-3:#95879A;
+  --line:#413649;
+  --line-strong:#57485F;
+  --lilac:#D4A4D2;
+  --lilac-deep:#E7C6E5;
+  --lilac-soft:#3A2D42;
+  --wa:#27B662;
+  --wa-ink:#0F2A19;
+  --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 28px -14px rgba(0,0,0,.6);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3,h4{margin:0;font-family:var(--display);font-weight:400;text-wrap:balance;letter-spacing:-.005em}
+p{margin:0}
+
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:20px}
+
+/* ---------- theme-conditional logo ---------- */
+.on-dark{display:none}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .on-light{display:none}
+  :root:not([data-theme="light"]) .on-dark{display:block}
+}
+:root[data-theme="dark"] .on-light{display:none}
+:root[data-theme="dark"] .on-dark{display:block}
+
+/* ---------- header ---------- */
+.bar{
+  position:sticky;
+  top:env(safe-area-inset-top, 0px);
+  z-index:50;
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.bar-in{
+  display:flex;align-items:center;gap:18px;
+  min-height:62px;
+}
+.bar-logo img{height:32px;width:auto}
+.nav{
+  display:flex;gap:4px;margin-left:auto;
+  overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+}
+.nav::-webkit-scrollbar{display:none}
+.nav a{
+  white-space:nowrap;text-decoration:none;
+  font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-2);padding:8px 10px;border-radius:999px;
+}
+.nav a:hover{color:var(--lilac-deep);background:var(--lilac-soft)}
+.bar .wa-mini{
+  flex:none;display:none;align-items:center;gap:7px;
+  background:var(--wa);color:var(--wa-ink);text-decoration:none;
+  font-size:12.5px;font-weight:600;letter-spacing:.04em;
+  padding:9px 15px;border-radius:999px;
+}
+@media (min-width:900px){.bar .wa-mini{display:inline-flex}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-mono{
+  position:absolute;right:-70px;top:-40px;width:min(52vw,460px);
+  opacity:.16;pointer-events:none;user-select:none;
+}
+.hero-in{
+  position:relative;
+  padding-block:clamp(52px,9vw,104px) clamp(44px,7vw,84px);
+  max-width:760px;
+}
+.hero-wordmark img{height:clamp(46px,7vw,72px);width:auto}
+.eyebrow{
+  font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--lilac-deep);font-weight:600;
+}
+.hero h1{
+  font-size:clamp(34px,6.2vw,60px);line-height:1.08;margin-top:22px;
+}
+.hero h1 em{font-style:italic;color:var(--lilac-deep)}
+.hero p.lede{
+  margin-top:20px;font-size:clamp(16px,1.9vw,18.5px);color:var(--ink-2);
+  max-width:52ch;
+}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  text-decoration:none;border-radius:999px;
+  font-size:14px;font-weight:600;letter-spacing:.02em;
+  padding:12px 22px;border:1px solid transparent;
+  transition:transform .15s ease, background .15s ease, color .15s ease;
+}
+.btn:active{transform:translateY(1px)}
+.btn-wa{background:var(--wa);color:var(--wa-ink)}
+.btn-wa:hover{background:color-mix(in srgb, var(--wa) 86%, #000)}
+.btn-lilac{background:var(--lilac-soft);color:var(--lilac-deep);border-color:var(--lilac)}
+.btn-lilac:hover{background:var(--lilac);color:#fff;border-color:var(--lilac)}
+.btn-ghost{border-color:var(--line-strong);color:var(--ink)}
+.btn-ghost:hover{background:var(--lilac-soft);border-color:var(--lilac)}
+.btn-sm{padding:9px 16px;font-size:13px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--lilac-deep);outline-offset:3px;border-radius:999px}
+
+/* ---------- chips ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:34px}
+.chip{
+  text-decoration:none;font-size:12.5px;letter-spacing:.06em;
+  padding:7px 14px;border-radius:999px;
+  border:1px solid var(--line-strong);color:var(--ink-2);background:var(--surface);
+}
+.chip:hover{border-color:var(--lilac);color:var(--lilac-deep)}
+
+/* ---------- sections ---------- */
+section{scroll-margin-top:calc(var(--bar-h, 104px) + 16px)}
+.band{border-bottom:1px solid var(--line)}
+.band.alt{background:var(--surface-2)}
+.band-in{padding-block:clamp(52px,7vw,88px)}
+.s-head{max-width:62ch;margin-bottom:clamp(30px,4vw,46px)}
+.s-head h2{font-size:clamp(28px,4.4vw,44px);line-height:1.12;margin-top:14px}
+.s-head p{margin-top:14px;color:var(--ink-2);font-size:16.5px}
+
+/* ---------- product grid ---------- */
+.grid{display:grid;gap:22px;grid-template-columns:1fr}
+@media (min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.grid.three{grid-template-columns:repeat(3,1fr)}}
+
+.prod{
+  display:flex;flex-direction:column;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:4px;
+  overflow:hidden;
+  box-shadow:var(--shadow);
+}
+.prod-media{display:grid;gap:2px;background:var(--line)}
+.prod-media.two{grid-template-columns:1fr 1fr}
+.prod-media.three{grid-template-columns:repeat(3,1fr)}
+.prod-media img{width:100%;height:100%;aspect-ratio:1/1;object-fit:cover;max-width:100%}
+.prod-media.tall img{aspect-ratio:4/5}
+.prod-media.pending{
+  background:var(--lilac-soft);aspect-ratio:4/5;
+  display:grid;place-content:center;gap:10px;justify-items:center;
+  border-bottom:1px solid var(--line);
+}
+.prod-media.pending img{width:64px;height:auto;aspect-ratio:auto;opacity:.55}
+.prod-media.pending span{
+  font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--lilac-deep);font-weight:600;
+}
+.prod-body{display:flex;flex-direction:column;gap:14px;padding:22px 22px 24px;flex:1}
+.prod h3{font-size:22px;line-height:1.2}
+.prod .spec{
+  font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--lilac-deep);font-weight:600;margin-top:-8px;
+}
+.prod .desc{font-size:14.5px;color:var(--ink-2);line-height:1.55}
+.prod .foot{margin-top:auto;padding-top:4px}
+
+/* ---------- price tiers ---------- */
+.tiers{
+  overflow-x:auto;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+}
+.tiers.scrollable{
+  -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 22px),transparent 100%);
+          mask-image:linear-gradient(to right,#000 calc(100% - 22px),transparent 100%);
+}
+.tiers table{border-collapse:collapse;width:100%;min-width:max-content;font-variant-numeric:tabular-nums}
+.tiers th,.tiers td{padding:8px 10px;text-align:center;white-space:nowrap}
+.tiers th{
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--line);
+}
+.tiers td{font-size:14px;font-weight:600;color:var(--ink)}
+.tiers th:first-child,.tiers td:first-child{text-align:left;padding-left:0}
+.tiers th:last-child,.tiers td:last-child{padding-right:0}
+
+.tiers-label{
+  font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;margin-bottom:-6px;
+}
+.unit{display:flex;align-items:baseline;gap:9px}
+.unit .val{font-family:var(--display);font-size:28px;line-height:1;color:var(--lilac-deep)}
+.unit .per{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.note{font-size:13px;color:var(--ink-3);line-height:1.5;font-style:italic}
+
+/* ---------- havaianas ---------- */
+.hav{
+  display:grid;gap:34px;align-items:start;
+  grid-template-columns:1fr;
+}
+@media (min-width:900px){.hav{grid-template-columns:1fr 1.15fr;gap:48px}}
+.swatches{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media (min-width:520px){.swatches{grid-template-columns:repeat(4,1fr)}}
+.sw{text-align:center}
+.sw .disc{
+  width:100%;aspect-ratio:3/4;border-radius:6px;
+  display:grid;place-items:center;border:1px solid var(--line);
+}
+.sw .oval{
+  width:62%;height:76%;border-radius:50%;
+  border:1px solid rgba(0,0,0,.06);
+}
+.sw span{
+  display:block;margin-top:9px;font-size:12px;font-weight:600;
+  letter-spacing:.03em;color:var(--ink-2);
+}
+.price-slab{
+  background:var(--surface);border:1px solid var(--line);border-radius:4px;
+  padding:26px;box-shadow:var(--shadow);
+}
+.price-slab .val{font-family:var(--display);font-size:clamp(38px,6vw,54px);line-height:1;color:var(--lilac-deep)}
+.facts{display:grid;gap:14px;margin-top:22px;padding-top:22px;border-top:1px solid var(--line)}
+.fact{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.fact dt{
+  font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);
+  font-weight:600;padding-top:3px;white-space:nowrap;
+}
+.fact dd{margin:0;font-size:14.5px;color:var(--ink-2)}
+
+/* ---------- steps ---------- */
+.steps{display:grid;gap:2px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+@media (min-width:760px){.steps{grid-template-columns:repeat(5,1fr)}}
+.step{background:var(--surface);padding:20px 18px 22px}
+.step b{
+  display:block;font-family:var(--display);font-size:26px;
+  color:var(--lilac);line-height:1;margin-bottom:10px;
+}
+.step p{font-size:14px;color:var(--ink-2)}
+.step p strong{color:var(--ink);font-weight:600}
+
+/* ---------- gallery ---------- */
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media (min-width:700px){.gal{grid-template-columns:repeat(4,1fr)}}
+.gal img{aspect-ratio:1/1;object-fit:cover;width:100%;border-radius:3px}
+.gal a{display:block}
+
+/* ---------- closing ---------- */
+.closing{text-align:center;padding-block:clamp(60px,9vw,110px)}
+.closing .mono{width:76px;margin:0 auto 26px;opacity:.8}
+.closing h2{font-size:clamp(28px,4.6vw,42px)}
+.closing p{margin-top:16px;color:var(--ink-2);max-width:46ch;margin-inline:auto}
+.closing .hero-cta{justify-content:center}
+
+footer{border-top:1px solid var(--line);background:var(--surface-2)}
+.foot-in{
+  display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between;
+  padding-block:30px;
+}
+.foot-in img{height:30px;width:auto;opacity:.85}
+.foot-in small{font-size:12.5px;color:var(--ink-3);letter-spacing:.03em}
+.foot-links{display:flex;gap:18px}
+.foot-links a{
+  font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-2);text-decoration:none;
+}
+.foot-links a:hover{color:var(--lilac-deep)}
+
+.fab{
+  position:fixed;right:16px;
+  bottom:calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index:60;box-shadow:0 8px 24px -6px rgba(30,158,82,.5);
+}
+@media (min-width:900px){.fab{display:none}}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+html{scroll-behavior:smooth}
+
+/* ---------- faixas de quantidade ---------- */
+.faixas{display:flex;flex-direction:column;gap:14px}
+.faixa-grupo{display:flex;flex-direction:column;gap:7px}
+.faixa-titulo{
+  font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;
+}
+.faixa-linha{display:flex;flex-wrap:wrap;gap:7px}
+.faixa{
+  flex:1 1 auto;min-width:78px;cursor:pointer;font:inherit;text-align:center;
+  background:var(--paper);border:1px solid var(--line-strong);border-radius:3px;
+  padding:8px 10px 9px;line-height:1.25;
+  transition:border-color .12s ease, background .12s ease;
+}
+.faixa b{
+  display:block;font-family:var(--body);font-size:13px;font-weight:700;
+  color:var(--ink);font-variant-numeric:tabular-nums;
+}
+.faixa span{
+  display:block;margin-top:2px;font-size:12.5px;color:var(--ink-2);
+  font-variant-numeric:tabular-nums;
+}
+.faixa:hover{border-color:var(--lilac)}
+.faixa[aria-checked="true"]{
+  background:var(--lilac-soft);border-color:var(--lilac-deep);box-shadow:inset 0 0 0 1px var(--lilac-deep);
+}
+.faixa[aria-checked="true"] b{color:var(--lilac-deep)}
+.faixa[aria-checked="true"] span{color:var(--lilac-deep);font-weight:600}
+.buy .qtyrow{margin-top:2px}
+
+.faixa.livre-btn{border-style:dashed;min-width:88px}
+.faixa.livre-btn b{color:var(--ink-2)}
+.faixa.livre-btn[aria-checked="true"]{border-style:solid}
+.livre{
+  display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+  background:var(--lilac-soft);border:1px solid var(--lilac);border-radius:3px;
+  padding:11px 13px;
+}
+.livre label{font-size:12.5px;font-weight:600;color:var(--lilac-deep)}
+.livre input{
+  font:inherit;font-size:14px;font-weight:600;color:var(--ink);text-align:center;
+  width:84px;padding:7px 8px;border:1px solid var(--lilac);border-radius:3px;
+  background:var(--surface);font-variant-numeric:tabular-nums;-moz-appearance:textfield;
+}
+.livre input::-webkit-outer-spin-button,.livre input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.livre input:focus{outline:2px solid var(--lilac-deep);outline-offset:-1px}
+.livre .livre-un{font-size:12.5px;color:var(--lilac-deep);font-weight:600}
+.livre::after{
+  content:"Acima da tabela o valor é fechado por orçamento.";
+  flex-basis:100%;font-size:11.5px;color:var(--ink-3);font-style:italic;
+}
+
+
+/* ---------- busca ---------- */
+.bar-in{flex-direction:column;align-items:stretch;gap:0;min-height:0;padding-block:8px}
+.bar-top{display:flex;align-items:center;gap:10px 12px;flex-wrap:wrap}
+.bar-top .bar-logo{flex:none}
+.bar-top .cart-btn{flex:none;margin-left:auto}
+.busca{position:relative;flex:1 1 200px;min-width:0;display:flex;align-items:center}
+.busca .lupa{
+  position:absolute;left:11px;width:16px;height:16px;color:var(--ink-3);pointer-events:none;
+}
+.busca input{
+  width:100%;font:inherit;font-size:14px;color:var(--ink);
+  background:var(--surface);border:1px solid var(--line-strong);border-radius:999px;
+  padding:9px 34px 9px 34px;-webkit-appearance:none;appearance:none;
+}
+.busca input::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.busca input::placeholder{color:var(--ink-3)}
+.busca input:focus{outline:none;border-color:var(--lilac);box-shadow:0 0 0 3px var(--lilac-soft)}
+.busca .limpa{
+  position:absolute;right:6px;width:26px;height:26px;border:0;border-radius:999px;cursor:pointer;
+  background:none;color:var(--ink-2);font-size:18px;line-height:1;
+}
+.busca .limpa:hover{background:var(--lilac-soft);color:var(--lilac-deep)}
+.nav{margin-left:0;padding-top:6px}
+@media (max-width:720px){
+  .bar-logo img{height:26px}
+  .busca{order:3;flex-basis:100%;margin-top:2px}
+}
+.resultado{
+  position:sticky;top:calc(var(--bar-h, 104px) + env(safe-area-inset-top, 0px));z-index:45;
+  background:var(--lilac-soft);border-bottom:1px solid var(--line);
+}
+.resultado-in{
+  display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between;
+  padding-block:10px;
+}
+.resultado p{font-size:13.5px;color:var(--lilac-deep);font-weight:600}
+.vazio{text-align:center;padding-block:clamp(50px,9vw,90px)}
+.vazio img{width:62px;margin:0 auto 20px;opacity:.5}
+.vazio h2{font-size:clamp(24px,4vw,34px)}
+.vazio p{margin-top:12px;color:var(--ink-2)}
+
+/* ---------- como encomendar ---------- */
+.comofaz{display:grid;gap:2px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+@media (min-width:640px){.comofaz{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1040px){.comofaz{grid-template-columns:repeat(4,1fr)}}
+.comofaz > div{background:var(--surface);padding:22px 20px 24px}
+.comofaz dt{
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--lilac-deep);font-weight:600;margin-bottom:9px;
+}
+.comofaz dd{margin:0;font-size:14.5px;color:var(--ink-2);line-height:1.55}
+.comofaz dd + dd{margin-top:8px}
+.comofaz strong{color:var(--ink);font-weight:600}
+
+/* ---------- aviso de prazo no pedido ---------- */
+.prazo{
+  display:flex;gap:11px;align-items:flex-start;
+  background:var(--lilac-soft);border:1px solid var(--lilac);border-radius:4px;
+  padding:13px 15px;font-size:13.5px;color:var(--lilac-deep);line-height:1.5;
+}
+.prazo b{display:block;font-family:var(--body);font-weight:700;margin-bottom:3px}
+.planob{
+  display:flex;flex-direction:column;gap:7px;
+  background:var(--lilac-soft);border:1px solid var(--lilac);border-radius:4px;
+  padding:13px 15px;font-size:13px;color:var(--lilac-deep);line-height:1.5;
+}
+.planob b{font-weight:700}
+.planob a{color:var(--lilac-deep);font-weight:600}
+.planob .link-wa{
+  display:inline-block;background:var(--wa);color:var(--wa-ink);text-decoration:none;
+  border-radius:999px;padding:9px 16px;text-align:center;font-size:13.5px;
+}
+
+/* ---------- controles de compra ---------- */
+.buy{margin-top:auto;padding-top:14px;display:flex;flex-direction:column;gap:10px}
+.qtyrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+select.opt,#hav-cor,#hav-num{
+  width:100%;font:inherit;font-size:13.5px;color:var(--ink);
+  background:var(--paper);border:1px solid var(--line-strong);border-radius:3px;
+  padding:9px 10px;appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--ink-3) 50%),linear-gradient(135deg,var(--ink-3) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 51%, calc(100% - 10px) 51%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:32px;
+}
+#hav-cor,#hav-num{width:auto;min-width:9.5rem}
+.stepper{display:inline-flex;align-items:stretch;border:1px solid var(--line-strong);border-radius:999px;overflow:hidden;background:var(--paper)}
+.stepper button{
+  font:inherit;font-size:16px;line-height:1;color:var(--lilac-deep);
+  background:none;border:0;cursor:pointer;width:32px;
+}
+.stepper button:hover{background:var(--lilac-soft)}
+.stepper .qty{
+  font:inherit;font-size:14px;font-weight:600;color:var(--ink);text-align:center;
+  width:42px;border:0;border-inline:1px solid var(--line);background:none;
+  -moz-appearance:textfield;font-variant-numeric:tabular-nums;padding:7px 0;
+}
+.stepper .qty::-webkit-outer-spin-button,.stepper .qty::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.addon{
+  align-self:flex-start;font:inherit;font-size:12px;letter-spacing:.02em;
+  color:var(--ink-2);background:none;border:1px dashed var(--line-strong);
+  border-radius:999px;padding:5px 12px;cursor:pointer;
+}
+.addon:hover{border-color:var(--lilac);color:var(--lilac-deep);border-style:solid}
+.add.done{background:var(--wa);color:var(--wa-ink);border-color:var(--wa)}
+
+.hav-build{margin-top:26px;background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:22px}
+.hav-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:12px}
+
+/* ---------- botões do carrinho ---------- */
+.cart-btn{
+  flex:none;display:inline-flex;align-items:center;gap:8px;cursor:pointer;
+  font:inherit;font-size:12.5px;font-weight:600;letter-spacing:.04em;
+  background:var(--lilac-soft);color:var(--lilac-deep);
+  border:1px solid var(--lilac);border-radius:999px;padding:8px 14px;
+}
+.cart-btn:hover{background:var(--lilac);color:#fff}
+.badge{
+  display:inline-grid;place-items:center;min-width:19px;height:19px;padding:0 5px;
+  border-radius:999px;background:var(--lilac-deep);color:var(--paper);
+  font-size:11px;font-weight:700;font-variant-numeric:tabular-nums;
+}
+.cart-btn:hover .badge{background:#fff;color:var(--lilac-deep)}
+.badge-on-green{background:rgba(255,255,255,.22);color:var(--wa-ink)}
+button.fab{border:0;cursor:pointer;font:inherit;font-weight:600;font-size:14px}
+
+/* ---------- gaveta do pedido ---------- */
+.scrim{
+  position:fixed;inset:0;z-index:70;background:rgba(40,28,42,.44);
+  backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .22s ease;
+}
+.scrim.on{opacity:1;pointer-events:auto}
+.cart{
+  position:fixed;z-index:80;top:0;right:0;bottom:0;width:min(440px,100%);
+  background:var(--paper);border-left:1px solid var(--line);
+  display:flex;flex-direction:column;
+  transform:translateX(101%);transition:transform .26s cubic-bezier(.4,0,.2,1);
+  box-shadow:-14px 0 40px -20px rgba(40,28,42,.5);
+}
+.cart.on{transform:none}
+.cart-head{
+  display:flex;align-items:center;gap:12px;
+  padding:16px 20px;padding-top:calc(16px + env(safe-area-inset-top, 0px));
+  border-bottom:1px solid var(--line);flex:none;
+}
+.cart-head h2{font-size:22px;flex:1}
+.x{
+  font:inherit;font-size:20px;line-height:1;color:var(--ink-2);background:none;border:0;
+  cursor:pointer;width:34px;height:34px;border-radius:999px;
+}
+.x:hover{background:var(--lilac-soft);color:var(--lilac-deep)}
+.cart-body{flex:1;overflow-y:auto;padding:18px 20px;display:flex;flex-direction:column;gap:16px}
+.cart-empty{text-align:center;color:var(--ink-2);padding:46px 10px}
+.cart-empty img{width:58px;margin:0 auto 18px;opacity:.5}
+.cart-empty p{font-size:14.5px;max-width:30ch;margin-inline:auto}
+
+.lines{display:flex;flex-direction:column;gap:2px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.line{background:var(--surface);padding:13px 14px;display:grid;grid-template-columns:1fr auto;gap:6px 12px;align-items:start}
+.line b{font-family:var(--display);font-weight:400;font-size:16.5px;line-height:1.25}
+.line small{grid-column:1;font-size:12.5px;color:var(--ink-2);display:block}
+.line .val{font-size:14px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.line .val.quote{font-weight:600;font-size:12px;color:var(--lilac-deep);text-transform:uppercase;letter-spacing:.08em}
+.line .ctl{grid-column:1/-1;display:flex;align-items:center;gap:10px;margin-top:4px}
+.line .rm{
+  font:inherit;font-size:12px;color:var(--ink-3);background:none;border:0;
+  cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0;
+}
+.line .rm:hover{color:#B3453F}
+
+.totals{display:flex;flex-direction:column;gap:8px;padding:14px 0;border-top:1px solid var(--line)}
+.trow{display:flex;justify-content:space-between;align-items:baseline;gap:14px;font-size:14px;color:var(--ink-2)}
+.trow.big{font-size:15px;color:var(--ink)}
+.trow.big span:last-child{font-family:var(--display);font-size:26px;color:var(--lilac-deep)}
+.trow span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+
+.fields{display:flex;flex-direction:column;gap:12px}
+.field{display:flex;flex-direction:column;gap:5px}
+.field label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.field textarea{
+  font:inherit;font-size:14.5px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--line-strong);border-radius:3px;padding:10px 11px;width:100%;
+  resize:vertical;min-height:72px;line-height:1.45;
+}
+.field textarea::placeholder{color:var(--ink-3)}
+.field textarea:focus{outline:2px solid var(--lilac);outline-offset:-1px;border-color:var(--lilac)}
+.field .opcional{
+  font-size:10px;letter-spacing:.1em;color:var(--ink-3);font-weight:500;
+  border:1px solid var(--line-strong);border-radius:999px;padding:1px 7px;margin-left:5px;
+}
+.field input,.field select{
+  font:inherit;font-size:14.5px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--line-strong);border-radius:3px;padding:10px 11px;width:100%;
+}
+.field input:focus,.field select:focus{outline:2px solid var(--lilac);outline-offset:-1px;border-color:var(--lilac)}
+.field.err input,.field.err select{border-color:#B3453F}
+.cart-foot{
+  flex:none;border-top:1px solid var(--line);background:var(--surface-2);
+  padding:16px 20px;padding-bottom:calc(16px + env(safe-area-inset-bottom, 0px));
+  display:flex;flex-direction:column;gap:10px;
+}
+.cart-foot .btn{justify-content:center}
+.cart-foot .fine{font-size:12px;color:var(--ink-3);text-align:center;line-height:1.45}
+.linkish{
+  font:inherit;font-size:12.5px;color:var(--ink-2);background:none;border:0;cursor:pointer;
+  text-decoration:underline;text-underline-offset:3px;
+}
+.linkish:hover{color:var(--lilac-deep)}
+.toast{
+  position:fixed;z-index:90;left:50%;transform:translateX(-50%) translateY(-14px);
+  top:calc(14px + env(safe-area-inset-top, 0px));
+  background:var(--ink);color:var(--paper);font-size:13.5px;font-weight:600;
+  padding:11px 20px;border-radius:999px;opacity:0;pointer-events:none;
+  transition:opacity .2s ease, transform .2s ease;max-width:calc(100% - 32px);
+}
+.toast.on{opacity:1;transform:translateX(-50%)}
+</style>
+
 </head>
 <body>
+<header class="bar">
+  <div class="wrap bar-in">
+    <div class="bar-top">
+      <a class="bar-logo" href="#topo" aria-label="Fratelli Atelier">
+        <img class="on-light" src="logo-tinta.png" alt="Fratelli Atelier">
+        <img class="on-dark" src="logo-branco.png" alt="Fratelli Atelier">
+      </a>
+      <div class="busca">
+        <svg class="lupa" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/><line x1="13.4" y1="13.4" x2="18" y2="18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input type="search" id="busca" placeholder="Buscar no catálogo" aria-label="Buscar no catálogo" autocomplete="off">
+        <button type="button" class="limpa" id="busca-limpa" aria-label="Limpar busca" hidden>&times;</button>
+      </div>
+      <button type="button" class="cart-btn" id="cart-open">Meu pedido <span class="badge" id="cart-count">0</span></button>
+    </div>
+    <nav class="nav" id="nav" aria-label="Categorias"></nav>
+  </div>
+</header>
+
+<div class="resultado" id="resultado" hidden>
+  <div class="wrap resultado-in">
+    <p id="resultado-txt"></p>
+    <button type="button" class="linkish" id="resultado-limpa">Ver o catálogo inteiro</button>
+  </div>
+</div>
+
+<main id="topo">
+
+  <section class="hero" data-sembusca="1">
+    <img class="hero-mono" src="monograma.png" alt="" aria-hidden="true">
+    <div class="wrap hero-in">
+      <div class="hero-wordmark">
+        <img class="on-light" src="logo-tinta.png" alt="Fratelli Atelier — Papelaria Personalizada">
+        <img class="on-dark" src="logo-branco.png" alt="Fratelli Atelier — Papelaria Personalizada">
+      </div>
+      <h1>Papelaria feita sob medida para a sua <em>festa</em>.</h1>
+      <p class="lede">Adesivos, tags, cardápios, toppers, placas, planners e Havaianas Color. Tudo impresso e montado aqui no atelier, com o nome, a data e as cores de cada comemoração.</p>
+      <div class="hero-cta">
+        <a class="btn btn-wa" href="https://wa.me/558130725097?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Fratelli%20Atelier%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+        <a class="btn btn-ghost" href="#papelaria">Ver o catálogo</a>
+      </div>
+      <div class="chips" id="chips">
+      </div>
+    </div>
+  </section>
+
+  <div id="secoes"></div>
+
+  <!-- COMO ENCOMENDAR -->
+  <section id="encomendar" class="band alt" data-busca="como encomendar prazo antecedencia urgencia encaixe personalizacao pagamento pix cartao taxa entrega retirada motoboy frete envio transportadora recife brasil">
+    <div class="wrap band-in">
+      <div class="s-head">
+        <p class="eyebrow">Antes de pedir</p>
+        <h2>Como encomendar</h2>
+        <p>O pedido começa pelo site e termina no WhatsApp, onde a gente fecha os detalhes da arte, o valor e a entrega.</p>
+      </div>
+      <dl class="comofaz">
+        <div>
+          <dt>Prazo</dt>
+          <dd>Pedimos <strong>no mínimo uma semana</strong> de antecedência.</dd>
+          <dd>A festa é antes disso? Chame mesmo assim — a gente tenta encaixe sempre que a agenda permite.</dd>
+        </div>
+        <div>
+          <dt>Havaianas Color</dt>
+          <dd><strong>Duas semanas</strong> de antecedência, porque os pares vêm do fornecedor.</dd>
+          <dd>Mínimo de 6 pares por numeração solicitada.</dd>
+        </div>
+        <div>
+          <dt>Personalização</dt>
+          <dd>Depois do pedido, você envia pelo WhatsApp os <strong>nomes, as fotos e as inspirações</strong> de arte.</dd>
+          <dd>Quanto antes chegarem, antes a produção começa.</dd>
+        </div>
+        <div>
+          <dt>Pagamento e entrega</dt>
+          <dd><strong>Pix ou cartão</strong> — no cartão entra a taxa da maquininha.</dd>
+          <dd>Em Recife, <strong>retirada no atelier</strong>. Você pode mandar um motoboy buscar.</dd>
+          <dd>Para o resto do Brasil, enviamos por <strong>transportadora</strong>.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria" class="band" data-sembusca="1">
+    <div class="wrap band-in">
+      <div class="s-head">
+        <p class="eyebrow">Entregues</p>
+        <h2>Festas que já passaram por aqui</h2>
+        <p>Um recorte do que saiu do atelier. Tem muito mais no nosso Instagram.</p>
+      </div>
+      <div class="gal">
+        <img src="desp-1.jpg" alt="Placa de despedida de solteira em papel recortado" loading="lazy">
+        <img src="papelaria-2.jpg" alt="Placa Bridal Shower ao lado de macarons" loading="lazy">
+        <img src="plaquinha-2.jpg" alt="Mural de fotos personalizado da despedida" loading="lazy">
+        <img src="toppers-3.jpg" alt="Mesa de doces com toppers personalizados" loading="lazy">
+        <img src="desp-2.jpg" alt="Mesa de bridal shower com placa personalizada, flores e macarons" loading="lazy">
+        <img src="bandeirolas-1.jpg" alt="Varalzinho de bandeirolas na mesa de doces" loading="lazy">
+        <img src="tags-pers-2.jpg" alt="Tags nominais amarradas nas sacolas dos convidados" loading="lazy">
+        <img src="galeria-helpmas.jpg" alt="Confraternização de Natal com jogo americano, canudo e tag nominal personalizados" loading="lazy">
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-ghost" href="https://www.instagram.com/fratelli.atelier/" target="_blank" rel="noopener">Ver no Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FECHAMENTO -->
+  <section class="band" data-sembusca="1">
+    <div class="wrap closing">
+      <img class="mono" src="monograma.png" alt="" aria-hidden="true">
+      <h2>Vamos montar o seu pedido?</h2>
+      <p>Conte o que você está organizando, a data e a quantidade de convidados. A gente fecha a lista de itens e o valor pelo WhatsApp.</p>
+      <div class="hero-cta">
+        <a class="btn btn-wa" href="https://wa.me/558130725097?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Fratelli%20Atelier%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener">Falar com o atelier</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/fratelli.atelier/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="scrim" id="scrim" hidden></div>
+
+<aside class="cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+  <div class="cart-head">
+    <h2 id="cart-title">Meu pedido</h2>
+    <button type="button" class="x" id="cart-close" aria-label="Fechar">&times;</button>
+  </div>
+
+  <div class="cart-body" id="cart-body"></div>
+
+  <div class="cart-foot">
+    <a class="btn btn-wa" id="cart-send" href="https://wa.me/558130725097" target="_blank" rel="noopener">Enviar pedido no WhatsApp</a>
+    <div class="planob" id="planob" hidden>
+      <b>O navegador bloqueou a abertura.</b>
+      <a class="link-wa" href="https://wa.me/558130725097" target="_blank" rel="noopener">Toque aqui para abrir o WhatsApp</a>
+      <span>Ou copie o pedido abaixo e mande para <a href="tel:+558130725097">(81) 3072-5097</a>.</span>
+    </div>
+    <p class="fine">O pedido abre no WhatsApp com a lista pronta. O valor final é confirmado por lá, junto com o prazo.</p>
+    <p class="fine"><button type="button" class="linkish" id="cart-copy">Copiar o pedido em texto</button>
+    &nbsp;·&nbsp; WhatsApp <a href="tel:+558130725097" style="color:inherit">(81) 3072-5097</a></p>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+
+<button type="button" class="btn btn-wa fab" id="cart-open-2">Meu pedido <span class="badge badge-on-green" id="cart-count-2">0</span></button>
+
+<script type="application/json" id="dados">{"versao": 1, "contato": {"whatsapp": "558130725097", "telefone": "(81) 3072-5097", "instagram": "fratelli.atelier"}, "secoes": [{"id": "papelaria", "alt": false, "ativa": true, "eyebrow": "01 · Papelaria & Festa", "titulo": "O kit completo da mesa de doces", "lede": "Os itens que mais saem para aniversários, chás e formaturas. Todos os valores são por quantidade fechada, já com a arte personalizada.", "busca": "", "grid": "", "produtos": [{"sku": "adesivos", "nome": "Adesivos", "ativo": true, "tipo": "opt", "un": "cartela", "conta": true, "busca": "sticker stickers bolacha lembrancinha copo garrafa sacola", "midia": "three", "fotos": [{"src": "adesivos-1.jpg", "alt": "Adesivos redondos personalizados com foto e frase"}, {"src": "adesivos-2.jpg", "alt": "Adesivo redondo aplicado em blusa"}, {"src": "adesivos-3.jpg", "alt": "Adesivo personalizado em sacola de presente"}], "spec": "Papel adesivo · corte redondo", "desc": "Para lembrancinhas, copos, sacolas e garrafas. A venda é por cartela, e a quantidade dentro dela muda conforme o tamanho.", "notas": ["Para quantidades maiores, some cartelas: o total sai em múltiplos de 15 no tamanho de 5 cm e de 12 nos de 6 e 7 cm."], "faixas": [{"r": "5 cm · 15 adesivos", "p": 15.5, "a": false}, {"r": "6 cm · 12 adesivos", "p": 15.5, "a": false}, {"r": "7 cm · 12 adesivos", "p": 18, "a": false}]}, {"sku": "toppers", "nome": "Toppers de doces", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "topo de doce brigadeiro docinho palito espeto", "midia": "three", "fotos": [{"src": "toppers-1.jpg", "alt": "Toppers de doces com fotos de crianças"}, {"src": "toppers-2.jpg", "alt": "Toppers de formatura espetados em brigadeiros"}, {"src": "toppers-3.jpg", "alt": "Toppers de sol e de rostos em palito"}], "spec": "Recorte especial · palito incluso", "desc": "Fotos, frases ou elementos do tema, recortados um a um e prontos para espetar.", "notas": [], "faixas": [{"r": "10 un", "p": 15.5, "a": false}, {"r": "15 un", "p": 23, "a": false}, {"r": "25 un", "p": 37, "a": false}, {"r": "30 un", "p": 44, "a": false}, {"r": "50 un", "p": 73.5, "a": false}]}, {"sku": "topo-bolo", "nome": "Topo de bolo", "ativo": true, "tipo": "quote", "un": "un", "conta": false, "busca": "topo de bolo aniversario casamento", "midia": "two tall", "fotos": [{"src": "topo-bolo-1.jpg", "alt": "Topo de bolo personalizado com nome e fotos"}, {"src": "topo-bolo-2.jpg", "alt": "Topo de bolo de formatura"}], "spec": "Projeto exclusivo", "desc": "Cada topo é desenhado do zero. Como o preço depende do formato, das camadas e do acabamento, ele é fechado depois que você envia as inspirações.", "notas": ["Valor informado após a indicação das inspirações."]}, {"sku": "canudos", "nome": "Canudos personalizados", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "canudo canudinho palito foto recorte", "midia": "three tall", "fotos": [{"src": "canudos-1.jpg", "alt": "Canudos de papel com recortes de fotos em copo de aniversário"}, {"src": "canudos-2.jpg", "alt": "Canudo verde com recorte de foto de formatura"}, {"src": "canudos-3.jpg", "alt": "Canudos de despedida de solteira com recortes de rostos"}], "spec": "Canudo de papel · recorte aplicado", "desc": "O recorte vai colado no canudo — foto do aniversariante, da formanda, dos convidados ou do casal. O canudo acompanha, na cor que combinar com a festa.", "notas": [], "faixas": [{"r": "10 un", "p": 18, "a": false}, {"r": "15 un", "p": 25, "a": false}, {"r": "25 un", "p": 30, "a": false}, {"r": "50 un", "p": 60, "a": false}]}, {"sku": "tags-nominais", "nome": "Marca-lugar", "ativo": true, "tipo": "opt", "un": "un", "conta": true, "busca": "tag nominal marcador de lugar marca lugar place card nome do convidado mesa posta taca prato", "midia": "two tall", "fotos": [{"src": "tags-nominais-1.jpg", "alt": "Marca-lugar em papel verde ao lado da taça na mesa posta"}, {"src": "tags-nominais-2.jpg", "alt": "Marca-lugar preso na taça com prendedor de madeira"}], "spec": "Dois formatos · venda por unidade", "desc": "O cartão com o nome que marca o lugar de cada convidado: em pé sobre o prato ou preso na taça. Sai na cor e na arte do tema da festa.", "notas": [], "faixas": [{"r": "Taça · 10x7 cm", "p": 2.3, "a": false}, {"r": "Mesa · 10x6,5 cm", "p": 3, "a": false}]}, {"sku": "placas", "nome": "Placas e papelaria personalizada", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "placa plaquinha aviso boas vindas cavalete arco", "midia": "two tall", "fotos": [{"src": "papelaria-1.jpg", "alt": "Placa de aniversário no cavalete ao lado do bolo"}, {"src": "papelaria-2.jpg", "alt": "Placa de bridal shower apoiada na mesa do bolo"}], "spec": "Dois formatos · papel rígido", "desc": "As plaquinhas de boas-vindas, avisos e brincadeiras que ficam espalhadas pela festa.", "notas": ["Cavalete de madeira vendido separadamente — R$ 6,00."], "faixas": [{"r": "16×10 cm · 1 un", "p": 8, "a": false}, {"r": "16×10 cm · 2 un", "p": 15, "a": false}, {"r": "16×10 cm · 5 un", "p": 35, "a": false}, {"r": "16×10 cm · 10 un", "p": 56, "a": false}, {"r": "16×10 cm · 20 un", "p": 102, "a": false}, {"r": "26×18 cm · 1 un", "p": 11.5, "a": false}, {"r": "26×18 cm · 2 un", "p": 20, "a": false}, {"r": "26×18 cm · 5 un", "p": 38, "a": false}, {"r": "26×18 cm · 10 un", "p": 65, "a": false}, {"r": "26×18 cm · 20 un", "p": 120, "a": false}], "adicional": {"nome": "Cavalete de madeira", "preco": 6}}, {"sku": "bandeirolas", "nome": "Varalzinho de bandeirolas", "ativo": true, "tipo": "opt", "un": "varal", "conta": false, "busca": "varal bandeirinha bandeirola nome letras mesa de doces", "midia": "", "fotos": [{"src": "bandeirolas-1.jpg", "alt": "Varalzinho de bandeirolas com o nome Vivi na mesa de doces"}], "spec": "Preço por bandeirola", "desc": "Monte o nome, a idade ou a frase do tema. Conte uma bandeirola por letra.", "notas": ["Valor passível de acréscimo conforme os adicionais escolhidos."], "faixas": [{"r": "8 bandeirolas", "p": 20, "a": false}, {"r": "12 bandeirolas", "p": 25.5, "a": false}, {"r": "16 bandeirolas", "p": 31, "a": false}]}, {"sku": "cardapio", "nome": "Cardápio de drinks", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "menu drinks cardapio bebidas aquarela bar carta placa cavalete let's drink", "midia": "three tall", "fotos": [{"src": "cardapio-1.jpg", "alt": "Cardápio de drinks com moldura de azulejo português no cavalete"}, {"src": "cardapio-3.jpg", "alt": "Noiva segurando o cardápio de drinks da despedida"}, {"src": "cardapio-80b5bcd2.jpg", "alt": "Cardápio de drinks"}], "spec": "26 × 18 cm · com aquarela", "desc": "A placa que fica no bar ou na mesa, com os drinks da noite ilustrados em aquarela. Um por ambiente já resolve.", "notas": ["Versões com mais elementos têm valor à parte. Cavalete de madeira vendido separadamente — R$ 6,00."], "preco": 15, "adicional": {"nome": "Cavalete de madeira", "preco": 6}, "porUnidade": "por unidade"}, {"sku": "menu-individual", "nome": "Menu individual", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "menu individual carta do convidado cardapio de mao entrada prato sobremesa drinks jantar 10x20", "midia": "two tall", "fotos": [{"src": "menu-ind-1.jpg", "alt": "Menu individual de formatura entregue na sacola do convidado"}, {"src": "menu-ind-2.jpg", "alt": "Menus individuais em arco com o título em hotstamping dourado"}], "spec": "10 × 20 cm · um por convidado", "desc": "A carta que vai na mão de cada convidado, no prato ou dentro da sacola, com o menu da noite. Cabe também recado, instruções e agradecimento.", "notas": ["Sai por R$ 5,60 a unidade no pacote de 5 e por R$ 4,92 no de 25."], "faixas": [{"r": "5 un", "p": 28, "a": false}, {"r": "10 un", "p": 55, "a": false}, {"r": "15 un", "p": 80, "a": false}, {"r": "20 un", "p": 100, "a": false}, {"r": "25 un", "p": 123, "a": false}]}, {"sku": "tags-pers", "nome": "Tags nominais personalizadas", "ativo": true, "tipo": "quote", "un": "un", "conta": false, "busca": "etiqueta tag nominal lembrancinha sacola brinde nome do convidado redonda organica recorte formato", "midia": "three tall", "fotos": [{"src": "tags-pers-1.jpg", "alt": "Arte da tag nominal com a faixa do nome do convidado"}, {"src": "tags-pers-7bd8655c.jpg", "alt": "Tags nominais personalizadas"}, {"src": "tags-pers-795484e6.jpg", "alt": "Tags nominais personalizadas"}], "spec": "Preço por folha de ofício", "desc": "Quadradas, retangulares, redondas ou de recorte orgânico. O cálculo é por folha de ofício: quanto menor a tag, mais unidades cabem em cada uma.", "notas": ["O preço depende da quantidade, do tamanho e do formato. Mande sua ideia no WhatsApp que a gente faz o orçamento."], "faixas": []}, {"sku": "jogo-americano", "nome": "Jogo americano personalizado", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "sousplat mesa posta confraternizacao jantar a3", "midia": "two tall", "fotos": [{"src": "jogo-americano-1.jpg", "alt": "Jogo americano de confraternização de Natal com o nome do convidado"}, {"src": "jogo-americano-2.jpg", "alt": "Jogo americano de confraternização com arte em verde"}], "spec": "Tamanho A3", "desc": "Para confraternizações e jantares. Sai com o nome de cada convidado, a data ou a arte do tema.", "notas": [], "preco": 6, "porUnidade": "por unidade"}], "menu": "Papelaria & Festa", "chip": "Papelaria & Festa"}, {"id": "despedida", "alt": true, "ativa": true, "eyebrow": "02 · Despedida de solteira", "titulo": "Da decoração da mesa às brincadeiras", "lede": "Os itens que fazem a noite andar sozinha: plaquinhas de rosto, anéis de taça e jogos prontos para imprimir e jogar. O cardápio de drinks e o menu individual estão em \u003ca href=\"#papelaria\">Papelaria &amp; Festa\u003c/a>.", "busca": "", "grid": "three", "produtos": [{"sku": "anel-tacas", "nome": "Anel para taças", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "anel taca marcador de taca despedida", "midia": "", "fotos": [{"src": "anel-tacas-1.jpg", "alt": "Anéis de taça em formato de anel de noivado, com o nome de cada convidada"}], "spec": "Venda por unidade", "desc": "Cada convidada acha a própria taça a noite inteira. Recorte em formato de anel de noivado, com o nome de quem bebe.", "notas": [], "preco": 1.5, "porUnidade": "cada"}, {"sku": "plaquinha", "nome": "Plaquinha de rosto", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "plaquinha de rosto rosto palito photo booth cara noivo", "midia": "", "fotos": [{"src": "plaquinha-1.jpg", "alt": "Plaquinhas de rosto recortadas em palito"}], "spec": "Recorte em palito", "desc": "O rosto do noivo, do crush ou de quem a noiva escolher — recortado e montado no palito.", "notas": [], "preco": 8, "porUnidade": "cada"}, {"sku": "jogos", "nome": "Jogos", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "brincadeira brincadeiras dinamica guess the dress bridal shower", "midia": "two tall", "fotos": [{"src": "jogos-1.jpg", "alt": "Cartela do jogo Guess the Dress"}, {"src": "jogos-2.jpg", "alt": "Cartela Favorite Memory with the Bride"}], "spec": "Preço por quantidade de cópias", "desc": "Personalizados e já prontos para as brincadeiras — uma cópia por convidada.", "notas": [], "faixas": [{"r": "10 cópias", "p": 19, "a": false}, {"r": "20 cópias", "p": 36, "a": false}, {"r": "60 cópias", "p": 87, "a": false}]}, {"sku": "kit-ressaca", "nome": "Kit Ressaca", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "caixa kit ressaca lembrancinha despedida", "midia": "", "fotos": [{"src": "kit-ressaca-1.jpg", "alt": "Caixa Kit Ressaca personalizada"}], "spec": "Caixa de papel personalizada", "desc": "A caixa sai pronta com a arte da despedida. Você monta o recheio do jeito que quiser.", "notas": ["Apenas a caixa de papel; os itens de dentro são comprados separadamente."], "faixas": [{"r": "5 un", "p": 30, "a": false}, {"r": "10 un", "p": 55, "a": false}, {"r": "15 un", "p": 87, "a": false}, {"r": "20 un", "p": 114, "a": false}, {"r": "25 un", "p": 140, "a": false}]}], "menu": "Despedida", "chip": "Despedida de solteira"}, {"id": "casamento", "alt": false, "ativa": true, "eyebrow": "03 · Casamento", "titulo": "Cerimônia, recepção e os detalhes no meio", "lede": "Itens entregues montados e prontos para uso, nas quantidades que a lista de convidados pede. O cardápio de drinks e o menu individual estão em \u003ca href=\"#papelaria\">Papelaria &amp; Festa\u003c/a>.", "busca": "", "grid": "", "produtos": [{"sku": "lagrimas", "nome": "Lágrimas de alegria", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "lagrimas de alegria lenco cerimonia igreja casamento", "midia": "", "fotos": [{"src": "lagrimas-1.jpg", "alt": "Lágrimas de alegria e ventarola com o monograma dos noivos"}], "spec": "Entregue montada", "desc": "Chega pronta para distribuir na entrada da cerimônia, com o monograma e a data do casal.", "notas": [], "faixas": [{"r": "25 un", "p": 40, "a": false}, {"r": "50 un", "p": 79, "a": false}, {"r": "80 un", "p": 126, "a": false}, {"r": "100 un", "p": 157, "a": false}, {"r": "150 un", "p": 235, "a": false}]}, {"sku": "ventarolas", "nome": "Ventarolas", "ativo": true, "tipo": "opt", "un": "pacote", "conta": false, "busca": "leque abanador ventarola cerimonia calor casamento", "midia": "two tall", "fotos": [{"src": "ventarolas-1.jpg", "alt": "Ventarolas de casamento com monograma dos noivos e a frase Espalhe amor"}, {"src": "ventarolas-2.jpg", "alt": "Ventarola personalizada em papel mate"}], "spec": "Papel mate 180 g", "desc": "Para cerimônia ao ar livre ou igreja quente — o papel mais encorpado aguenta a festa inteira.", "notas": [], "faixas": [{"r": "25 un", "p": 70, "a": false}, {"r": "50 un", "p": 134.9, "a": false}, {"r": "80 un", "p": 214.9, "a": false}, {"r": "100 un", "p": 266, "a": false}, {"r": "150 un", "p": 398.9, "a": false}]}, {"sku": "kit-toalete", "nome": "Kit toalete", "ativo": true, "tipo": "quote", "un": "kit", "conta": false, "busca": "lavabo banheiro toalete kit casamento", "midia": "two", "fotos": [{"src": "kit-toalete-1.jpg", "alt": "Kit toalete feminino montado em bandeja"}, {"src": "kit-toalete-2.jpg", "alt": "Kit toalete masculino organizado em caixas"}], "spec": "Feminino e masculino", "desc": "Montamos os dois lavabos com etiquetas personalizadas. Como o conteúdo muda de casamento para casamento, fechamos o valor caso a caso.", "notas": ["Orçamento personalizado — entre em contato pelo WhatsApp."]}], "menu": "Casamento", "chip": "Casamento"}, {"id": "havaianas", "alt": true, "ativa": true, "eyebrow": "04 · Novidade", "titulo": "Havaianas Color", "lede": "Chinelo original Havaianas, linha Color — sola macia, tiras emborrachadas e a durabilidade de sempre. Em cores para combinar com cada cerimônia, seja para presentear convidados ou compor o kit da noiva e do noivo.", "busca": "havaianas color chinelo sandália sandalia par pares casamento lembrança convidados noiva noivo", "grid": "", "produtos": [], "menu": "Havaianas Color", "chip": "Havaianas Color", "tipo": "havaianas", "havaianas": {"nome": "Havaianas Color", "preco": 18.5, "minimo": 6, "cores": [{"nome": "Vermelho Apache", "cor": "#C8341F", "fundo": "#F7E8E5"}, {"nome": "Preto", "cor": "#1A1A1A", "fundo": "#ECEAEA"}, {"nome": "Azul Naval", "cor": "#1E3A63", "fundo": "#DCE6F2"}, {"nome": "Branco", "cor": "#FAFAF7", "fundo": "#EFEDE6"}, {"nome": "Café", "cor": "#3D2318", "fundo": "#E8E0D6"}, {"nome": "Verde Pátria", "cor": "#2E7D4F", "fundo": "#DDEEE2"}, {"nome": "Rosa Flux", "cor": "#F0508E", "fundo": "#FCE0EC"}, {"nome": "Rosa Ballet", "cor": "#F2C2CE", "fundo": "#FBE9EE"}], "numeracoes": ["33/34", "35/36", "37/38", "39/40", "41/42", "43/44", "45/46"], "fichas": [{"rotulo": "Numeração", "texto": "A numeração da linha Color é um pouco menor que a comum. Quem calça 36 comum deve pedir 37/38 Color — use essa referência ao anotar o pedido dos convidados."}, {"rotulo": "Mínimo", "texto": "6 pares por numeração solicitada. Cores diferentes na mesma numeração somam."}, {"rotulo": "Prazo", "texto": "Pedimos pelo menos duas semanas de antecedência."}]}}, {"id": "planners", "alt": false, "ativa": true, "eyebrow": "05 · Planners, cadernos e cadernetas", "titulo": "Personalizando, passo a passo", "lede": "O miolo é nosso, a capa é sua: você escolhe o modelo, o interior, a laminação e o nome que vai em hotstamping. Os cinco passos abaixo valem para o planner, a agenda e o caderno.", "busca": "", "grid": "three", "produtos": [{"sku": "planner", "nome": "Planner Católico", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "planner catolico agenda 2026 habitos lectio divina terco", "midia": "two tall", "fotos": [{"src": "planner-capa.jpg", "alt": "Planner Católico 2026 com capa de laço e versículo, wire-o bronze"}, {"src": "planner-f4cbae05.jpg", "alt": "Planner Católico"}], "spec": "Wire-o bronze ou dourado", "desc": "Visão mensal, páginas diárias com o calendário litúrgico, acompanhamento de leituras e controle de hábitos — missa diária, Lectio Divina, Laudes, Completas e Terço.", "notas": [], "preco": 76.9, "porUnidade": ""}, {"sku": "agenda", "nome": "Agenda 2026", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "agenda 2026 planner semanal diaria", "midia": "two tall", "fotos": [{"src": "agenda-capa.jpg", "alt": "Agendas 2026 com capas personalizadas em wire-o"}, {"src": "agenda-capa-2.jpg", "alt": "Página de abertura da Agenda 2026"}], "spec": "Wire-o branco", "desc": "Horário semanal, abertura de mês personalizável conforme o tema e páginas diárias com espaço para anotações. A capa é desenhada do zero, com o nome em hotstamping.", "notas": [], "preco": 59.9, "porUnidade": ""}, {"sku": "caderno", "nome": "Caderno", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "caderno pautado wire-o bloco anotacoes", "midia": "two tall", "fotos": [{"src": "caderno-capa.jpg", "alt": "Caderno com capa de Sagrado Coração e citação, wire-o bronze"}, {"src": "caderno-capa-2.jpg", "alt": "Miolo pautado do caderno personalizado"}], "spec": "Wire-o bronze ou dourado", "desc": "Miolo pautado, com bolso de papel na contracapa para folhas e documentos. A capa segue o tema que você escolher — nome, versículo, ilustração.", "notas": [], "preco": 51.9, "porUnidade": ""}, {"sku": "caderneta", "nome": "Caderneta de Saúde", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "caderneta de saude vacinacao vacina bebe crianca consulta pediatra sus modelo oficial ministerio da saude puericultura", "midia": "tall", "fotos": [{"src": "caderneta.jpg", "alt": "Caderneta de saúde verde-oliva com o nome Francisco em hotstamping"}], "spec": "Capa personalizada com o nome", "desc": "Segue o modelo exato da caderneta disponível pelo SUS, com todas as páginas de vacinação, consultas e acompanhamento. Muda só a capa: wire-o com o nome da criança em hotstamping, no mesmo acabamento dos planners.", "notas": [], "preco": 59.9, "porUnidade": ""}, {"sku": "bobbie-goods", "nome": "Bobbie Goods personalizado", "ativo": true, "tipo": "unit", "un": "un", "conta": false, "busca": "bobbie goods colorir livro de colorir desenho crianca lembrancinha infantil", "midia": "tall", "fotos": [{"src": "bobbie-goods.jpg", "alt": "Livro de colorir Bobbie Goods personalizado com o nome Vivi na capa"}], "spec": "50 desenhos para colorir", "desc": "Livro de colorir com 50 desenhos e capa glitter personalizada com o nome. Funciona como lembrancinha de festa infantil ou presente.", "notas": [], "preco": 29, "porUnidade": ""}], "menu": "Planners & Cadernos", "chip": "Planners & Cadernos", "passos": ["\u003cstrong>Escolha o modelo\u003c/strong> — planner católico, agenda ou caderno.", "\u003cstrong>Escolha o miolo\u003c/strong> — três opções de interior, apenas para o planner.", "\u003cstrong>Envie inspirações\u003c/strong> de capa para desenharmos a sua.", "\u003cstrong>Escolha a laminação\u003c/strong> — glossy ou fosca.", "\u003cstrong>Escolha o nome\u003c/strong> do hotstamping: dourado, prata ou rosê gold."]}], "prazos": {"padrao": 7, "havaianas": 14}, "eventos": ["Aniversário", "Chá de bebê", "Chá de panela", "Despedida de solteira", "Casamento", "Formatura", "Confraternização", "Natal", "Outro"]}</script>
+
+<script>
+(function () {
+  'use strict';
+
+  /* =====================================================================
+     CATÁLOGO — tudo é desenhado a partir do bloco de dados da página.
+     Mexer num preço aqui é mexer no <script id="dados">, nunca no HTML.
+     ===================================================================== */
+
+  var DADOS = JSON.parse(document.getElementById('dados').textContent);
+
+  function esc(v) {
+    return String(v == null ? '' : v)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function brl(v) { return 'R$ ' + Number(v).toFixed(2).replace('.', ','); }
+
+  var TEM_QTD = /(?:^|·\s*)\s*\d+\s+\S/;
+
+  function faixasHTML(p) {
+    var ops = (p.faixas || []).filter(function (o) { return o && o.r; });
+    var pref = ops.map(function (o) { return o.r.indexOf(' · ') > -1 ? o.r.split(' · ')[0] : null; });
+    var cont = {};
+    pref.forEach(function (x) { if (x) cont[x] = (cont[x] || 0) + 1; });
+    var agrupa = Object.keys(cont).some(function (k) { return cont[k] >= 2; });
+    var temQtd = ops.length > 0 && ops.every(function (o) { return TEM_QTD.test(o.r); });
+
+    function rot(i) { return agrupa ? ops[i].r.split(' · ').slice(1).join(' · ') : ops[i].r; }
+    function botao(i) {
+      return '<button type="button" class="faixa" data-i="' + i + '" role="radio" aria-checked="' +
+        (i === 0 ? 'true' : 'false') + '"><b>' + esc(rot(i)) + '</b><span>' + brl(ops[i].p) + '</span></button>';
+    }
+    function livre(grupo, idx) {
+      var unidade = rot(idx[idx.length - 1]).split(' ').pop();
+      return '<button type="button" class="faixa livre-btn" data-livre="1" data-grupo="' + esc(grupo || '') +
+        '" data-unidade="' + esc(unidade) + '" role="radio" aria-checked="false"><b>Mais</b><span>a combinar</span></button>';
+    }
+
+    var h = '<div class="faixas" role="radiogroup" aria-label="Escolha a quantidade">';
+    if (agrupa) {
+      var vistos = [];
+      pref.forEach(function (x) { if (x && vistos.indexOf(x) === -1) vistos.push(x); });
+      vistos.forEach(function (g) {
+        var idx = [];
+        ops.forEach(function (o, i) { if (pref[i] === g) idx.push(i); });
+        h += '<div class="faixa-grupo"><p class="faixa-titulo">' + esc(g) + '</p><div class="faixa-linha">';
+        idx.forEach(function (i) { h += botao(i); });
+        if (temQtd) h += livre(g, idx);
+        h += '</div></div>';
+      });
+    } else {
+      h += '<div class="faixa-linha">';
+      ops.forEach(function (o, i) { h += botao(i); });
+      if (temQtd) h += livre('', ops.map(function (o, i) { return i; }));
+      h += '</div>';
+    }
+    h += '</div>';
+
+    if (temQtd) {
+      h += '<div class="livre" hidden>' +
+           '<label for="livre-' + esc(p.sku) + '">Quantas você precisa?</label>' +
+           '<input id="livre-' + esc(p.sku) + '" class="livre-qtd" type="number" min="1" max="99999" ' +
+           'inputmode="numeric" placeholder="ex.: 200">' +
+           '<span class="livre-un"></span>' +
+           '</div>';
+    }
+    return { html: h, temQtd: temQtd };
+  }
+
+  function cardHTML(p) {
+    var h = '<article class="prod" data-sku="' + esc(p.sku) + '" data-nome="' + esc(p.nome) +
+            '" data-tipo="' + esc(p.tipo) + '" data-un="' + esc(p.un || 'un') + '"';
+    if (p.busca) h += ' data-busca="' + esc(p.busca) + '"';
+    if (p.tipo === 'unit') h += ' data-preco="' + p.preco + '"';
+    if (p.tipo === 'opt') h += ' data-op="' + esc(JSON.stringify(p.faixas || [])) + '"';
+    if (p.conta) h += ' data-conta="1"';
+    h += '>';
+
+    var fotos = (p.fotos || []).filter(function (f) { return f && f.src; });
+    if (fotos.length) {
+      h += '<div class="prod-media ' + esc(p.midia || '') + '">';
+      fotos.forEach(function (f) {
+        h += '<img src="' + esc(f.src) + '" alt="' + esc(f.alt || '') + '" loading="lazy">';
+      });
+      h += '</div>';
+    } else {
+      h += '<div class="prod-media pending"><img src="monograma.png" alt="" aria-hidden="true">' +
+           '<span>Foto em breve</span></div>';
+    }
+
+    h += '<div class="prod-body"><h3>' + esc(p.nome) + '</h3>';
+    if (p.spec) h += '<p class="spec">' + esc(p.spec) + '</p>';
+    if (p.desc) h += '<p class="desc">' + esc(p.desc) + '</p>';
+
+    var temQtd = false;
+    if (p.tipo === 'unit') {
+      h += '<div class="unit"><span class="val">' + brl(p.preco) + '</span>' +
+           (p.porUnidade ? '<span class="per">' + esc(p.porUnidade) + '</span>' : '') + '</div>';
+    }
+    (p.notas || []).forEach(function (n) { if (n) h += '<p class="note">' + esc(n) + '</p>'; });
+
+    h += '<div class="buy">';
+    if (p.tipo === 'opt' && (p.faixas || []).length) {
+      var f = faixasHTML(p);
+      h += f.html;
+      temQtd = f.temQtd;
+    }
+    h += '<div class="qtyrow">';
+    var contador = (p.tipo !== 'opt') || !temQtd || p.conta;
+    if (contador) {
+      h += '<div class="stepper"><button type="button" class="minus" aria-label="Diminuir">−</button>' +
+           '<input class="qty" type="number" min="1" max="999" value="1" inputmode="numeric" aria-label="Quantidade">' +
+           '<button type="button" class="plus" aria-label="Aumentar">+</button></div>';
+    }
+    h += '<button type="button" class="btn btn-lilac btn-sm add">Adicionar</button></div>';
+    if (p.adicional && p.adicional.nome) {
+      h += '<button type="button" class="addon" data-nome="' + esc(p.adicional.nome) + '" data-preco="' +
+           p.adicional.preco + '">+ ' + esc(p.adicional.nome) + ' · ' + brl(p.adicional.preco) + '</button>';
+    }
+    h += '</div></div></article>';
+    return h;
+  }
+
+  function havaianasHTML(s) {
+    var hv = s.havaianas;
+    var h = '<div class="hav"><div class="price-slab"><p class="eyebrow">Preço por par</p><p class="val">' +
+            brl(hv.preco) + '</p><dl class="facts">';
+    (hv.fichas || []).forEach(function (f) {
+      h += '<div class="fact"><dt>' + esc(f.rotulo) + '</dt><dd>' + esc(f.texto) + '</dd></div>';
+    });
+    h += '</dl><div class="hav-build" id="hav-build"><p class="tiers-label">Monte o pedido</p><div class="hav-row">' +
+         '<select id="hav-cor" aria-label="Cor">';
+    hv.cores.forEach(function (c) { h += '<option>' + esc(c.nome) + '</option>'; });
+    h += '</select><select id="hav-num" aria-label="Numeração Color">';
+    hv.numeracoes.forEach(function (n, i) {
+      h += '<option' + (n === '37/38' ? ' selected' : '') + '>' + esc(n) + '</option>';
+    });
+    h += '</select><div class="stepper"><button type="button" class="minus" aria-label="Diminuir">−</button>' +
+         '<input class="qty" id="hav-qtd" type="number" min="' + hv.minimo + '" max="999" step="1" value="' +
+         hv.minimo + '" inputmode="numeric" aria-label="Pares"><button type="button" class="plus" aria-label="Aumentar">+</button></div>' +
+         '<button type="button" class="btn btn-lilac btn-sm" id="hav-add">Adicionar pares</button></div>' +
+         '<p class="note" style="margin-top:12px">Uma linha por cor e numeração, com no mínimo ' + hv.minimo +
+         ' pares em cada. Lembre que a numeração Color é menor que a comum.</p></div></div>';
+
+    h += '<div><p class="tiers-label" style="margin-bottom:14px">' + hv.cores.length +
+         ' cores disponíveis</p><div class="swatches">';
+    hv.cores.forEach(function (c) {
+      var borda = c.nome === 'Branco' ? ';border-color:rgba(0,0,0,.14)' : '';
+      h += '<div class="sw"><div class="disc" style="background:' + esc(c.fundo) + '"><div class="oval" style="background:' +
+           esc(c.cor) + borda + '"></div></div><span>' + esc(c.nome) + '</span></div>';
+    });
+    h += '</div></div></div>';
+    return h;
+  }
+
+  function secaoHTML(s) {
+    var h = '<section id="' + esc(s.id) + '" class="band' + (s.alt ? ' alt' : '') + '"';
+    if (s.busca) h += ' data-busca="' + esc(s.busca) + '"';
+    h += '><div class="wrap band-in"><div class="s-head">';
+    if (s.eyebrow) h += '<p class="eyebrow">' + esc(s.eyebrow) + '</p>';
+    h += '<h2>' + esc(s.titulo) + '</h2>';
+    if (s.lede) h += '<p>' + s.lede + '</p>';
+    h += '</div>';
+
+    if (s.tipo === 'havaianas' && s.havaianas && (s.havaianas.cores || []).length) {
+      h += havaianasHTML(s);
+    } else {
+      if ((s.passos || []).length) {
+        h += '<div class="steps">';
+        s.passos.forEach(function (p, i) {
+          h += '<div class="step"><b>' + (i + 1) + '</b><p>' + p + '</p></div>';
+        });
+        h += '</div>';
+      }
+      var ativos = (s.produtos || []).filter(function (p) { return p.ativo !== false; });
+      if (ativos.length) {
+        h += '<div class="grid ' + esc(s.grid || '') + '"' + ((s.passos || []).length ? ' style="margin-top:26px"' : '') + '>';
+        ativos.forEach(function (p) { h += cardHTML(p); });
+        h += '</div>';
+      }
+    }
+    h += '</div></section>';
+    return h;
+  }
+
+  function desenhaCatalogo() {
+    var ativas = DADOS.secoes.filter(function (s) { return s.ativa !== false; });
+    document.getElementById('secoes').innerHTML = ativas.map(secaoHTML).join('\n');
+
+    var nav = ativas.map(function (s) {
+      return '<a href="#' + esc(s.id) + '">' + esc(s.menu || s.eyebrow) + '</a>';
+    }).join('') + '<a href="#encomendar">Como encomendar</a>';
+    document.getElementById('nav').innerHTML = nav;
+
+    document.getElementById('chips').innerHTML = ativas.map(function (s) {
+      return '<a class="chip" href="#' + esc(s.id) + '">' + esc(s.chip || s.menu) + '</a>';
+    }).join('');
+  }
+
+
+  var WA_NUM = DADOS.contato.whatsapp;
+  var STORE  = 'fratelli-pedido-v1';
+
+  var cart = { itens: [], nome: '', evento: '', data: '', obs: '' };
+
+  /* ---------- persistência (best effort) ---------- */
+  function load() {
+    try {
+      var raw = localStorage.getItem(STORE);
+      if (!raw) return;
+      var d = JSON.parse(raw);
+      if (d && Array.isArray(d.itens)) cart = {
+        itens: d.itens, nome: d.nome || '', evento: d.evento || '',
+        data: d.data || '', obs: d.obs || ''
+      };
+    } catch (e) {}
+  }
+  function save() {
+    try { localStorage.setItem(STORE, JSON.stringify(cart)); } catch (e) {}
+  }
+
+  /* ---------- utilidades ---------- */
+  function havCfg() {
+    var s = DADOS.secoes.filter(function (x) { return x.tipo === 'havaianas'; })[0];
+    return (s && s.havaianas) || { nome: 'Havaianas Color', preco: 0, minimo: 1 };
+  }
+
+  function unidade(i) {
+    var u = i.un || 'un';
+    if (i.qtd > 1 && u !== 'un' && u.slice(-1) !== 's') u += 's';
+    return u;
+  }
+  function $(id) { return document.getElementById(id); }
+
+  var toastTimer;
+  function toast(msg) {
+    var t = $('toast');
+    t.textContent = msg;
+    t.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove('on'); }, 2200);
+  }
+
+  /* ---------- carrinho ---------- */
+  function addItem(item) {
+    var igual = cart.itens.filter(function (i) {
+      return i.nome === item.nome && i.detalhe === item.detalhe && i.preco === item.preco &&
+             !!i.orcar === !!item.orcar && !!i.mult === !!item.mult;
+    })[0];
+    if (igual) igual.qtd += item.qtd;
+    else cart.itens.push(item);
+    save();
+    render();
+    toast(item.nome + ' no pedido');
+  }
+
+  function totais() {
+    var fechado = 0, aproximado = 0, orcar = 0, pecas = 0;
+    cart.itens.forEach(function (i) {
+      pecas += i.qtd;
+      if (i.orcar) orcar++;
+      else if (i.aprox) aproximado += i.preco * i.qtd;
+      else fechado += i.preco * i.qtd;
+    });
+    return { fechado: fechado, aprox: aproximado, orcar: orcar, pecas: pecas };
+  }
+
+  /* ---------- render ---------- */
+  function render() {
+    var n = cart.itens.reduce(function (a, i) { return a + i.qtd; }, 0);
+    ['cart-count', 'cart-count-2'].forEach(function (id) {
+      var el = $(id); if (el) el.textContent = n;
+    });
+
+    var body = $('cart-body');
+    if (!cart.itens.length) {
+      sincronizaLink();
+      body.innerHTML =
+        '<div class="cart-empty">' +
+        '<img src="monograma.png" alt="" aria-hidden="true">' +
+        '<p>Seu pedido está vazio. Escolha os itens pelo catálogo e eles aparecem aqui.</p>' +
+        '<p style="margin-top:18px"><a class="btn btn-ghost btn-sm" href="https://wa.me/' + WA_NUM +
+        '?text=' + encodeURIComponent('Olá! Vim pelo site da Fratelli Atelier e quero tirar uma dúvida.') +
+        '" target="_blank" rel="noopener">Falar direto no WhatsApp</a></p>' +
+        '</div>';
+      return;
+    }
+
+    var t = totais();
+    var h = '<div class="lines">';
+    cart.itens.forEach(function (i, idx) {
+      h += '<div class="line">' +
+           '<b>' + esc(i.nome) + '</b>' +
+           (i.orcar
+             ? '<span class="val quote">a combinar</span>'
+             : '<span class="val">' + brl(i.preco * i.qtd) + (i.aprox ? '+' : '') + '</span>') +
+           (i.detalhe ? '<small>' + esc(i.detalhe) + '</small>' : '') +
+           '<div class="ctl">' +
+             '<div class="stepper" data-idx="' + idx + '">' +
+               '<button type="button" class="minus" aria-label="Diminuir">−</button>' +
+               '<input class="qty" type="number" min="1" max="999" value="' + i.qtd + '" inputmode="numeric" aria-label="Quantidade de ' + esc(i.nome) + '">' +
+               '<button type="button" class="plus" aria-label="Aumentar">+</button>' +
+             '</div>' +
+             (i.mult
+               ? (i.qtd > 1 ? '<span style="font-size:12px;color:var(--ink-3)">conjuntos</span>' : '')
+               : '<span style="font-size:12px;color:var(--ink-3)">' + esc(unidade(i)) + '</span>') +
+             '<button type="button" class="rm" data-rm="' + idx + '">remover</button>' +
+           '</div>' +
+           '</div>';
+    });
+    h += '</div>';
+
+    h += '<div class="totals">';
+    if (t.fechado) h += '<div class="trow"><span>Itens com preço fechado</span><span>' + brl(t.fechado) + '</span></div>';
+    if (t.aprox)   h += '<div class="trow"><span>Itens "a partir de"</span><span>' + brl(t.aprox) + '+</span></div>';
+    if (t.orcar)   h += '<div class="trow"><span>Itens a orçar</span><span>' + t.orcar + '</span></div>';
+    h += '<div class="trow big"><span>Estimativa</span><span>' + brl(t.fechado + t.aprox) + (t.aprox || t.orcar ? '+' : '') + '</span></div>';
+    h += '</div>';
+
+    h += '<div class="fields">' +
+      '<div class="field" id="f-nome"><label for="in-nome">Seu nome</label>' +
+        '<input id="in-nome" type="text" autocomplete="name" placeholder="Como podemos te chamar" value="' + esc(cart.nome) + '"></div>' +
+      '<div class="field" id="f-evento"><label for="in-evento">Tipo de evento</label>' +
+        '<select id="in-evento">' + opcoesEvento() + '</select></div>' +
+      '<div class="field" id="f-data"><label for="in-data">Data do evento</label>' +
+        '<input id="in-data" type="date" min="' + hojeISO() + '" value="' + esc(cart.data) + '"></div>' +
+      '<div class="field" id="f-obs"><label for="in-obs">Observações <span class="opcional">opcional</span></label>' +
+        '<textarea id="in-obs" rows="3" maxlength="500" placeholder="Nomes dos convidados, frases, tema e cores da festa, alguma ideia que você já tem…">' +
+        esc(cart.obs) + '</textarea></div>' +
+    '</div>' + avisoPrazo();
+
+    body.innerHTML = h;
+    sincronizaLink();
+  }
+
+  function sincronizaLink() {
+    var a = $('cart-send');
+    if (!a) return;
+    a.href = 'https://wa.me/' + WA_NUM +
+      (cart.itens.length ? '?text=' + encodeURIComponent(mensagem()) : '');
+  }
+
+  var EVENTOS = DADOS.eventos;
+  function opcoesEvento() {
+    var o = '<option value="">Selecione</option>';
+    EVENTOS.forEach(function (e) {
+      o += '<option value="' + e + '"' + (cart.evento === e ? ' selected' : '') + '>' + e + '</option>';
+    });
+    return o;
+  }
+
+
+
+  /* ---------- prazo ---------- */
+  function hojeISO() {
+    var d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  function diasAte(iso) {
+    if (!iso) return null;
+    var p = String(iso).split('-');
+    if (p.length !== 3) return null;
+    var alvo = new Date(+p[0], +p[1] - 1, +p[2]);
+    var hoje = new Date();
+    hoje.setHours(0, 0, 0, 0);
+    alvo.setHours(0, 0, 0, 0);
+    return Math.round((alvo - hoje) / 86400000);
+  }
+  function temHavaianas() {
+    return cart.itens.some(function (i) { return i.nome === havCfg().nome; });
+  }
+  /* Retorna {dias, minimo} quando o prazo é curto, ou null. */
+  function prazoCurto() {
+    var d = diasAte(cart.data);
+    if (d === null) return null;
+    var minimo = temHavaianas() ? (DADOS.prazos.havaianas || 14) : (DADOS.prazos.padrao || 7);
+    return d < minimo ? { dias: d, minimo: minimo } : null;
+  }
+  function avisoPrazo() {
+    var p = prazoCurto();
+    if (!p) return '';
+    var quando = p.dias < 0 ? 'A data escolhida já passou.'
+               : p.dias === 0 ? 'A data escolhida é hoje.'
+               : p.dias === 1 ? 'Falta 1 dia para a data escolhida.'
+               : 'Faltam ' + p.dias + ' dias para a data escolhida.';
+    var pedimos = p.minimo === 14
+      ? 'Para Havaianas Color pedimos duas semanas de antecedência.'
+      : 'Pedimos uma semana de antecedência.';
+    return '<div class="prazo"><span aria-hidden="true">!</span><span>' +
+           '<b>Prazo apertado</b>' + quando + ' ' + pedimos +
+           ' Envie assim mesmo: a gente confirma pelo WhatsApp se dá para encaixar.' +
+           '</span></div>';
+  }
+
+  /* ---------- mensagem do WhatsApp ---------- */
+  function mensagem() {
+    var t = totais();
+    var L = ['*Pedido — Fratelli Atelier*', ''];
+    if (cart.nome)   L.push('Nome: ' + cart.nome);
+    if (cart.evento) L.push('Evento: ' + cart.evento);
+    if (cart.data)   L.push('Data: ' + dataBR(cart.data));
+    L.push('', '*Itens*');
+    cart.itens.forEach(function (i) {
+      var linha = '• ' + i.nome;
+      if (i.detalhe) linha += ' — ' + i.detalhe;
+      if (i.mult) {
+        if (i.qtd > 1) linha += ' — ' + i.qtd + '×';
+      } else {
+        linha += ' — ' + i.qtd + ' ' + unidade(i);
+      }
+      linha += i.orcar ? ' — a combinar'
+                       : ' — ' + brl(i.preco * i.qtd) + (i.aprox ? ' (a partir de)' : '');
+      L.push(linha);
+    });
+    L.push('');
+    L.push('*Estimativa:* ' + brl(t.fechado + t.aprox) + (t.aprox || t.orcar ? '+' : ''));
+    if (t.orcar) L.push('(' + t.orcar + ' ' + (t.orcar > 1 ? 'itens dependem' : 'item depende') + ' de orçamento)');
+    if (cart.obs && cart.obs.trim()) {
+      L.push('');
+      L.push('*Observações*');
+      L.push(cart.obs.trim());
+    }
+    var p = prazoCurto();
+    if (p) {
+      L.push('');
+      L.push('*PRAZO APERTADO* — ' + (p.dias < 0 ? 'a data já passou'
+        : p.dias === 0 ? 'a data é hoje'
+        : 'faltam ' + p.dias + (p.dias === 1 ? ' dia' : ' dias')) +
+        '. Consigo encaixar?');
+    }
+    return L.join('\n');
+  }
+
+  function dataBR(iso) {
+    var p = String(iso).split('-');
+    return p.length === 3 ? p[2] + '/' + p[1] + '/' + p[0] : iso;
+  }
+
+
+  /* ---------- abrir o WhatsApp ----------
+     Dentro de uma moldura protegida (a prévia do Claude, um preview de rede
+     social) o navegador bloqueia abrir aba nova sem avisar. Tentamos em
+     ordem: aba nova, navegar a janela de cima, navegar a própria moldura. */
+  function abrirWhats(url) {
+    try {
+      var w = window.open(url, '_blank', 'noopener');
+      if (w) { try { w.opener = null; } catch (e) {} return true; }
+    } catch (e) {}
+    try {
+      if (window.top && window.top !== window.self) { window.top.location.href = url; return true; }
+    } catch (e) {}
+    try { window.location.href = url; return true; } catch (e) {}
+    return false;
+  }
+
+  /* ---------- gaveta ---------- */
+  var ultimoFoco = null;
+  function abrir() {
+    ultimoFoco = document.activeElement;
+    $('scrim').hidden = false; $('cart').hidden = false;
+    requestAnimationFrame(function () {
+      $('scrim').classList.add('on'); $('cart').classList.add('on');
+    });
+    document.body.style.overflow = 'hidden';
+    $('cart-close').focus();
+  }
+  function fechar() {
+    $('scrim').classList.remove('on'); $('cart').classList.remove('on');
+    document.body.style.overflow = '';
+    setTimeout(function () { $('scrim').hidden = true; $('cart').hidden = true; }, 260);
+    if (ultimoFoco && ultimoFoco.focus) ultimoFoco.focus();
+  }
+
+  /* ---------- eventos ---------- */
+  document.addEventListener('click', function (ev) {
+    var el = ev.target;
+
+    if (el.closest('#cart-open') || el.closest('#cart-open-2')) { abrir(); return; }
+    if (el.closest('#busca-limpa') || el.closest('#resultado-limpa')) { limpaBusca(); return; }
+    if (el.closest('.nav a')) { limpaBusca(); campoBusca.blur(); return; }
+    if (el.closest('#cart-close') || el.id === 'scrim') { fechar(); return; }
+
+    // steppers (catálogo e carrinho)
+    if (el.classList && (el.classList.contains('plus') || el.classList.contains('minus'))) {
+      var box = el.closest('.stepper');
+      var input = box.querySelector('.qty');
+      var lo = parseInt(input.getAttribute('min'), 10) || 1;
+      var hi = parseInt(input.getAttribute('max'), 10) || 999;
+      var v = Math.max(lo, Math.min(hi, (parseInt(input.value, 10) || lo) + (el.classList.contains('plus') ? 1 : -1)));
+      input.value = v;
+      var idx = box.getAttribute('data-idx');
+      if (idx !== null) { cart.itens[+idx].qtd = v; save(); render(); }
+      return;
+    }
+
+    // remover linha
+    if (el.hasAttribute && el.hasAttribute('data-rm')) {
+      cart.itens.splice(+el.getAttribute('data-rm'), 1);
+      save(); render();
+      return;
+    }
+
+    // adicional (cavalete)
+    if (el.classList && el.classList.contains('addon')) {
+      addItem({
+        nome: el.getAttribute('data-nome'), detalhe: '',
+        preco: parseFloat(el.getAttribute('data-preco')), qtd: 1, un: 'un'
+      });
+      return;
+    }
+
+    // escolher a faixa
+    var chip = el.closest ? el.closest('.faixa') : null;
+    if (chip) {
+      var card0 = chip.closest('.prod');
+      card0.querySelectorAll('.faixa').forEach(function (c) { c.setAttribute('aria-checked', 'false'); });
+      chip.setAttribute('aria-checked', 'true');
+      var caixa = card0.querySelector('.livre');
+      if (caixa) {
+        var aberto = chip.hasAttribute('data-livre');
+        caixa.hidden = !aberto;
+        if (aberto) {
+          caixa.querySelector('.livre-un').textContent = chip.getAttribute('data-unidade') || '';
+          caixa.querySelector('.livre-qtd').focus();
+        }
+      }
+      return;
+    }
+
+    // adicionar produto
+    if (el.classList && el.classList.contains('add')) {
+      var card = el.closest('.prod');
+      var campoQtd = card.querySelector('.qty');
+      var qtd = campoQtd ? Math.max(1, parseInt(campoQtd.value, 10) || 1) : 1;
+      var tipo = card.getAttribute('data-tipo');
+      var item = { nome: card.getAttribute('data-nome'), detalhe: '', qtd: qtd, un: card.getAttribute('data-un'), preco: 0 };
+
+      if (tipo === 'opt') {
+        var marcado = card.querySelector('.faixa[aria-checked="true"]') || card.querySelector('.faixa');
+        item.mult = !card.hasAttribute('data-conta');
+
+        if (marcado.hasAttribute('data-livre')) {
+          var campo = card.querySelector('.livre-qtd');
+          var n = parseInt(campo.value, 10) || 0;
+          if (n < 1) { campo.focus(); toast('Diga quantas você precisa'); return; }
+          var g = marcado.getAttribute('data-grupo');
+          item.detalhe = (g ? g + ' · ' : '') + n + ' ' + (marcado.getAttribute('data-unidade') || 'un');
+          item.orcar = true;
+          item.qtd = 1;
+          item.mult = true;
+        } else {
+          var ops = JSON.parse(card.getAttribute('data-op'));
+          var o = ops[+marcado.getAttribute('data-i')];
+          item.detalhe = o.r; item.preco = o.p; item.aprox = !!o.a;
+        }
+      } else if (tipo === 'unit') {
+        item.preco = parseFloat(card.getAttribute('data-preco'));
+      } else {
+        item.orcar = true;
+      }
+
+      addItem(item);
+      el.classList.add('done');
+      el.textContent = 'Adicionado';
+      setTimeout(function () { el.classList.remove('done'); el.textContent = 'Adicionar'; }, 1400);
+      return;
+    }
+
+    // Havaianas
+    if (el.id === 'hav-add') {
+      var cfg = havCfg();
+      var campo = $('hav-qtd');
+      var q = parseInt(campo.value, 10) || 0;
+      if (q < cfg.minimo) {
+        campo.value = cfg.minimo;
+        campo.focus();
+        toast('Mínimo de ' + cfg.minimo + ' pares por numeração');
+        return;
+      }
+      addItem({
+        nome: cfg.nome,
+        detalhe: $('hav-cor').value + ' · ' + $('hav-num').value,
+        preco: cfg.preco, qtd: q, un: q > 1 ? 'pares' : 'par'
+      });
+      return;
+    }
+
+    // enviar
+    if (el.closest('#cart-send')) {
+      var faltando = null;
+      if (!cart.itens.length)      { toast('Adicione ao menos um item'); ev.preventDefault(); return; }
+      if (!cart.nome.trim())       faltando = 'f-nome';
+      else if (!cart.evento)       faltando = 'f-evento';
+      if (faltando) {
+        ev.preventDefault();
+        var f = $(faltando);
+        f.classList.add('err');
+        f.querySelector('input,select').focus();
+        toast(faltando === 'f-nome' ? 'Falta o seu nome' : 'Escolha o tipo de evento');
+        return;
+      }
+      ev.preventDefault();
+      sincronizaLink();
+      if (!abrirWhats($('cart-send').href)) mostraPlanoB();
+      return;
+    }
+
+    // copiar
+    if (el.id === 'cart-copy') {
+      if (!cart.itens.length) { toast('Seu pedido está vazio'); return; }
+      var txt = mensagem();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(txt).then(
+          function () { toast('Pedido copiado'); },
+          function () { toast('Não foi possível copiar'); }
+        );
+      } else {
+        toast('Não foi possível copiar');
+      }
+      return;
+    }
+  });
+
+  // campos do formulário + quantidade digitada
+  document.addEventListener('input', function (ev) {
+    var el = ev.target;
+    if (el.id === 'in-nome')   { cart.nome = el.value; $('f-nome').classList.remove('err'); save(); sincronizaLink(); }
+    if (el.id === 'in-evento') { cart.evento = el.value; $('f-evento').classList.remove('err'); save(); sincronizaLink(); }
+    if (el.id === 'in-data')   { cart.data = el.value; save(); render(); }
+    if (el.id === 'in-obs')    { cart.obs = el.value; save(); sincronizaLink(); }
+    if (el.id === 'busca')     { filtrar(); }
+
+    if (el.classList && el.classList.contains('qty')) {
+      var box = el.closest('.stepper');
+      var idx = box && box.getAttribute('data-idx');
+      if (idx !== null && idx !== undefined && idx !== false) {
+        var v = Math.max(1, Math.min(999, parseInt(el.value, 10) || 1));
+        cart.itens[+idx].qtd = v;
+        save();
+        var n = cart.itens.reduce(function (a, i) { return a + i.qtd; }, 0);
+        ['cart-count', 'cart-count-2'].forEach(function (id) { var e = $(id); if (e) e.textContent = n; });
+        var linha = el.closest('.line');
+        var val = linha && linha.querySelector('.val');
+        var it = cart.itens[+idx];
+        if (val && !it.orcar) val.textContent = brl(it.preco * it.qtd) + (it.aprox ? '+' : '');
+      }
+    }
+  });
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== 'Escape') return;
+    if (!$('cart').hidden) { fechar(); return; }
+    if (campoBusca && campoBusca.value) limpaBusca();
+  });
+
+
+
+  function mostraPlanoB() {
+    var box = $('planob');
+    if (!box) return;
+    box.hidden = false;
+    var a = box.querySelector('a.link-wa');
+    a.href = $('cart-send').href;
+    box.scrollIntoView({ block: 'nearest' });
+  }
+
+  /* ---------- busca no catálogo ---------- */
+  var campoBusca, cards = [], secoes = [], faixaRes, txtRes, vazio;
+
+  function normaliza(v) {
+    return String(v || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  function montaIndice() {
+    campoBusca = $('busca');
+    faixaRes = $('resultado');
+    txtRes = $('resultado-txt');
+    if (!campoBusca) return;
+
+    cards = [].slice.call(document.querySelectorAll('.prod')).map(function (el) {
+      var extra = (el.getAttribute('data-op') || '') + ' ' + (el.getAttribute('data-busca') || '');
+      return { el: el, secao: el.closest('section'), txt: normaliza(el.textContent + ' ' + extra) };
+    });
+
+    secoes = [].slice.call(document.querySelectorAll('main section')).map(function (el) {
+      var cabeca = el.querySelector('.s-head');
+      return {
+        el: el,
+        temProdutos: !!el.querySelector('.prod'),
+        fora: el.hasAttribute('data-sembusca'),
+        txt: normaliza((cabeca ? cabeca.textContent : '') + ' ' + (el.getAttribute('data-busca') || ''))
+      };
+    });
+
+    // bloco de "nada encontrado", criado uma vez
+    vazio = document.createElement('section');
+    vazio.className = 'band';
+    vazio.hidden = true;
+    vazio.innerHTML = '<div class="wrap vazio">' +
+      '<img src="monograma.png" alt="" aria-hidden="true">' +
+      '<h2>Nada encontrado</h2>' +
+      '<p>Tente outra palavra, ou chame no WhatsApp — muita coisa sai sob encomenda mesmo sem estar no catálogo.</p>' +
+      '<p style="margin-top:20px"><a class="btn btn-wa btn-sm" href="https://wa.me/558130725097?text=' +
+        encodeURIComponent('Olá! Vim pelo site e procuro um item que não achei no catálogo.') +
+        '" target="_blank" rel="noopener">Perguntar no WhatsApp</a></p>' +
+      '</div>';
+    document.querySelector('main').appendChild(vazio);
+  }
+
+  function filtrar() {
+    if (!campoBusca) return;
+    var termos = normaliza(campoBusca.value).split(/\s+/).filter(Boolean);
+    var ativo = termos.length > 0;
+
+    $('busca-limpa').hidden = !ativo;
+    faixaRes.hidden = !ativo;
+
+    if (!ativo) {
+      cards.forEach(function (c) { c.el.hidden = false; });
+      secoes.forEach(function (s) { s.el.hidden = false; });
+      vazio.hidden = true;
+      return;
+    }
+
+    function casa(txt) { return termos.every(function (t) { return txt.indexOf(t) !== -1; }); }
+
+    var achados = 0;
+    cards.forEach(function (c) {
+      var ok = casa(c.txt);
+      c.el.hidden = !ok;
+      if (ok) achados++;
+    });
+
+    secoes.forEach(function (s) {
+      if (s.fora) { s.el.hidden = true; return; }
+      if (s.temProdutos) {
+        s.el.hidden = !s.el.querySelector('.prod:not([hidden])');
+      } else {
+        var ok = casa(s.txt);
+        s.el.hidden = !ok;
+        if (ok) achados++;
+      }
+    });
+
+    vazio.hidden = achados > 0;
+    txtRes.textContent = achados === 0
+      ? 'Nenhum resultado para “' + campoBusca.value.trim() + '”'
+      : achados + (achados === 1 ? ' resultado' : ' resultados') + ' para “' + campoBusca.value.trim() + '”';
+  }
+
+  function limpaBusca() {
+    if (!campoBusca) return;
+    campoBusca.value = '';
+    filtrar();
+    campoBusca.focus();
+  }
+
+  /* altura real do cabeçalho, para as âncoras e a faixa de resultados */
+  function mediaBarra() {
+    var b = document.querySelector('.bar');
+    if (b) document.documentElement.style.setProperty('--bar-h', b.offsetHeight + 'px');
+  }
+
+  /* ---------- tabelas roláveis ---------- */
+  function marcaTabelas() {
+    var ts = document.querySelectorAll('.tiers');
+    for (var i = 0; i < ts.length; i++) {
+      ts[i].classList.toggle('scrollable', ts[i].scrollWidth - ts[i].clientWidth > 4);
+    }
+  }
+  window.addEventListener('resize', function () { marcaTabelas(); mediaBarra(); });
+  window.addEventListener('load', function () { marcaTabelas(); mediaBarra(); });
+
+  function arranca() {
+    load();
+    desenhaCatalogo();
+    render();
+    montaIndice();
+    marcaTabelas();
+    mediaBarra();
+  }
+
+  /* O catálogo tem duas moradas: o dados.json ao lado da página (o que o
+     painel /admin edita) e a cópia embutida logo acima, que entra em cena
+     se o arquivo não existir ou a rede falhar. */
+  if (window.fetch && location.protocol.indexOf('http') === 0) {
+    var arrancou = false;
+    function soUmaVez() { if (!arrancou) { arrancou = true; arranca(); } }
+    var relogio = setTimeout(soUmaVez, 2500);
+    fetch('dados.json', { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) { if (j && j.secoes && j.secoes.length) DADOS = j; })
+      .catch(function () {})
+      .then(function () { clearTimeout(relogio); soUmaVez(); });
+  } else {
+    arranca();
+  }
+
+
+})();
+</script>
+
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script src="https://unpkg.com/decap-cms@^3.8.0/dist/decap-cms.js"></script>
+<script>
+/* Quando o convite do painel chega por e-mail, ele abre o site com um
+   token no endereço. Este trecho leva direto para /admin/. */
+(function () {
+  if (!window.netlifyIdentity) return;
+  window.netlifyIdentity.on('init', function (user) {
+    if (!user) {
+      window.netlifyIdentity.on('login', function () { document.location.href = '/admin/'; });
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
