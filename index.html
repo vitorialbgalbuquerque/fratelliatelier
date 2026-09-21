@@ -980,6 +980,11 @@ button.fab{border:0;cursor:pointer;font:inherit;font-weight:600;font-size:14px}
   }
 
   function desenhaCatalogo() {
+    /* produto criado pelo painel pode vir sem apelido interno: inventamos um */
+    var conta = 0;
+    DADOS.secoes.forEach(function (s) {
+      (s.produtos || []).forEach(function (p) { if (!p.sku) p.sku = 'item-' + (++conta); });
+    });
     var ativas = DADOS.secoes.filter(function (s) { return s.ativa !== false; });
     document.getElementById('secoes').innerHTML = ativas.map(secaoHTML).join('\n');
 
@@ -1604,7 +1609,7 @@ button.fab{border:0;cursor:pointer;font:inherit;font-weight:600;font-size:14px}
   if (!window.netlifyIdentity) return;
   window.netlifyIdentity.on('init', function (user) {
     if (!user) {
-      window.netlifyIdentity.on('login', function () { document.location.href = '/admin/'; });
+      window.netlifyIdentity.on('login', function () { document.location.href = '/painel.html'; });
     }
   });
 })();
