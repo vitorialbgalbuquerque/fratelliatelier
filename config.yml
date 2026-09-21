@@ -1,0 +1,194 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: pt
+publish_mode: simple
+media_folder: "img"
+public_folder: "img"
+
+site_url: https://fratelliatelier.com.br
+logo_url: https://fratelliatelier.com.br/apple-touch-icon.png
+
+collections:
+  - name: catalogo
+    label: Catálogo
+    files:
+      - name: dados
+        label: Produtos, preços e fotos
+        file: dados.json
+        description: >-
+          Tudo o que aparece no site. Depois de salvar, o site leva cerca de
+          um minuto para atualizar sozinho.
+        fields:
+          - { name: versao, widget: hidden, default: 1 }
+
+          - name: contato
+            label: Contato
+            widget: object
+            collapsed: true
+            fields:
+              - { name: whatsapp, label: "WhatsApp (só números, começando com 55)", widget: string }
+              - { name: telefone, label: "Telefone como aparece escrito", widget: string }
+              - { name: instagram, label: "Instagram (sem @)", widget: string }
+
+          - name: prazos
+            label: Prazos de produção (em dias)
+            widget: object
+            collapsed: true
+            fields:
+              - { name: padrao, label: "Prazo normal", widget: number, value_type: int, min: 1 }
+              - { name: havaianas, label: "Prazo quando tem Havaianas", widget: number, value_type: int, min: 1 }
+
+          - name: eventos
+            label: Tipos de evento (lista do carrinho)
+            widget: list
+            collapsed: true
+            field: { name: evento, label: Evento, widget: string }
+
+          - name: secoes
+            label: Seções do site
+            label_singular: Seção
+            widget: list
+            collapsed: true
+            summary: "{{fields.titulo}}"
+            fields:
+              - { name: titulo, label: Título da seção, widget: string }
+              - { name: ativa, label: Aparece no site, widget: boolean, default: true, required: false }
+              - { name: id, label: "Apelido no endereço (sem acento nem espaço)", widget: string, pattern: ['^[a-z0-9-]+$', 'só letras minúsculas, números e hífen'] }
+              - { name: eyebrow, label: "Linha pequena acima do título", widget: string, required: false }
+              - { name: lede, label: "Texto de abertura", widget: text, required: false }
+              - { name: menu, label: "Nome no menu do topo", widget: string, required: false }
+              - { name: chip, label: "Nome na etiqueta da capa", widget: string, required: false }
+              - { name: busca, label: "Palavras extras para a busca", widget: string, required: false }
+              - { name: alt, label: "Fundo alternado (mais escuro)", widget: boolean, default: false, required: false }
+              - name: grid
+                label: Largura dos cartões
+                widget: select
+                required: false
+                default: ""
+                options:
+                  - { label: "Normal (2 colunas)", value: "" }
+                  - { label: "Estreito (3 colunas)", value: "three" }
+              - name: tipo
+                label: Seção especial
+                widget: select
+                required: false
+                default: ""
+                options:
+                  - { label: "Seção comum de produtos", value: "" }
+                  - { label: "Seção das Havaianas", value: "havaianas" }
+              - name: passos
+                label: "Passos (só em algumas seções)"
+                widget: list
+                required: false
+                collapsed: true
+                field: { name: passo, label: Passo, widget: text }
+
+              - name: havaianas
+                label: "Configuração das Havaianas (ignore nas outras seções)"
+                widget: object
+                collapsed: true
+                required: false
+                fields:
+                  - { name: nome, label: Nome do produto, widget: string, required: false }
+                  - { name: preco, label: Preço por par, widget: number, value_type: float, required: false }
+                  - { name: minimo, label: Mínimo de pares por numeração, widget: number, value_type: int, required: false }
+                  - name: cores
+                    label: Cores
+                    widget: list
+                    required: false
+                    collapsed: true
+                    summary: "{{fields.nome}}"
+                    fields:
+                      - { name: nome, label: Nome da cor, widget: string }
+                      - { name: cor, label: "Cor da tira (código, ex.: #C089BE)", widget: string }
+                      - { name: fundo, label: "Cor da sola (código)", widget: string }
+                  - name: numeracoes
+                    label: Numerações
+                    widget: list
+                    required: false
+                    collapsed: true
+                    field: { name: numero, label: Numeração, widget: string }
+                  - name: fichas
+                    label: Informações em destaque
+                    widget: list
+                    required: false
+                    collapsed: true
+                    summary: "{{fields.rotulo}}"
+                    fields:
+                      - { name: rotulo, label: Rótulo, widget: string }
+                      - { name: texto, label: Texto, widget: string }
+
+              - name: produtos
+                label: Produtos
+                label_singular: Produto
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.nome}}"
+                fields:
+                  - { name: nome, label: Nome do produto, widget: string }
+                  - { name: ativo, label: Aparece no site, widget: boolean, default: true, required: false }
+                  - { name: sku, label: "Apelido interno (sem acento nem espaço)", widget: string, pattern: ['^[a-z0-9-]+$', 'só letras minúsculas, números e hífen'] }
+                  - name: tipo
+                    label: Como é vendido
+                    widget: select
+                    default: unit
+                    options:
+                      - { label: "Preço único por unidade", value: unit }
+                      - { label: "Tabela de quantidades", value: opt }
+                      - { label: "A combinar (orçamento)", value: quote }
+                  - { name: preco, label: "Preço (só para preço único)", widget: number, value_type: float, required: false }
+                  - { name: porUnidade, label: "Texto ao lado do preço (ex.: por folha)", widget: string, required: false }
+                  - name: faixas
+                    label: "Tabela de quantidades (só para tabela)"
+                    label_singular: Faixa
+                    widget: list
+                    required: false
+                    collapsed: true
+                    summary: "{{fields.r}} — {{fields.p}}"
+                    fields:
+                      - { name: r, label: "Rótulo (ex.: 50 un)", widget: string }
+                      - { name: p, label: Preço, widget: number, value_type: float }
+                      - { name: a, label: "É 'a partir de'", widget: boolean, default: false, required: false }
+                  - { name: un, label: "Unidade (un, folha, par...)", widget: string, default: "un", required: false }
+                  - { name: conta, label: "Deixar o cliente escolher a quantidade além da tabela", widget: boolean, default: false, required: false }
+                  - { name: spec, label: "Ficha técnica (linha em destaque)", widget: string, required: false }
+                  - { name: desc, label: Descrição, widget: text, required: false }
+                  - name: notas
+                    label: Observações abaixo da descrição
+                    widget: list
+                    required: false
+                    collapsed: true
+                    field: { name: nota, label: Observação, widget: text }
+                  - name: fotos
+                    label: Fotos
+                    widget: list
+                    required: false
+                    collapsed: true
+                    summary: "{{fields.alt}}"
+                    fields:
+                      - { name: src, label: Foto, widget: image }
+                      - { name: alt, label: "Descrição da foto (acessibilidade)", widget: string, required: false }
+                  - name: midia
+                    label: Formato das fotos
+                    widget: select
+                    required: false
+                    default: ""
+                    options:
+                      - { label: "1 foto, normal", value: "" }
+                      - { label: "1 foto, alta", value: "tall" }
+                      - { label: "2 fotos", value: "two" }
+                      - { label: "2 fotos altas", value: "two tall" }
+                      - { label: "3 fotos", value: "three" }
+                      - { label: "3 fotos altas", value: "three tall" }
+                  - { name: busca, label: "Palavras extras para a busca", widget: string, required: false }
+                  - name: adicional
+                    label: "Item adicional (deixe o nome vazio se não houver)"
+                    widget: object
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { name: nome, label: Nome do adicional, widget: string, required: false }
+                      - { name: preco, label: Preço do adicional, widget: number, value_type: float, required: false }
