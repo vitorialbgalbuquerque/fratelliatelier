@@ -1,1049 +1,1049 @@
 {
- "versao": 1,
- "contato": {
-  "whatsapp": "558130725097",
-  "telefone": "(81) 3072-5097",
-  "instagram": "fratelli.atelier"
- },
- "secoes": [
-  {
-   "id": "papelaria",
-   "alt": false,
-   "ativa": true,
-   "eyebrow": "01 · Papelaria & Festa",
-   "titulo": "O kit completo da mesa de doces",
-   "lede": "Os itens que mais saem para aniversários, chás e formaturas. Todos os valores são por quantidade fechada, já com a arte personalizada.",
-   "busca": "",
-   "grid": "",
-   "produtos": [
-    {
-     "sku": "adesivos",
-     "nome": "Adesivos",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "cartela",
-     "conta": true,
-     "busca": "sticker stickers bolacha lembrancinha copo garrafa sacola",
-     "midia": "three",
-     "fotos": [
-      {
-       "src": "adesivos-1.jpg",
-       "alt": "Adesivos redondos personalizados com foto e frase"
-      },
-      {
-       "src": "adesivos-2.jpg",
-       "alt": "Adesivo redondo aplicado em blusa"
-      },
-      {
-       "src": "adesivos-3.jpg",
-       "alt": "Adesivo personalizado em sacola de presente"
-      }
-     ],
-     "spec": "Papel adesivo · corte redondo",
-     "desc": "Para lembrancinhas, copos, sacolas e garrafas. A venda é por cartela, e a quantidade dentro dela muda conforme o tamanho.",
-     "notas": [
-      "Para quantidades maiores, some cartelas: o total sai em múltiplos de 15 no tamanho de 5 cm e de 12 nos de 6 e 7 cm."
-     ],
-     "faixas": [
-      {
-       "r": "5 cm · 15 adesivos",
-       "p": 15.5,
-       "a": false
-      },
-      {
-       "r": "6 cm · 12 adesivos",
-       "p": 15.5,
-       "a": false
-      },
-      {
-       "r": "7 cm · 12 adesivos",
-       "p": 18,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "toppers",
-     "nome": "Toppers de doces",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "topo de doce brigadeiro docinho palito espeto",
-     "midia": "three",
-     "fotos": [
-      {
-       "src": "toppers-1.jpg",
-       "alt": "Toppers de doces com fotos de crianças"
-      },
-      {
-       "src": "toppers-2.jpg",
-       "alt": "Toppers de formatura espetados em brigadeiros"
-      },
-      {
-       "src": "toppers-3.jpg",
-       "alt": "Toppers de sol e de rostos em palito"
-      }
-     ],
-     "spec": "Recorte especial · palito incluso",
-     "desc": "Fotos, frases ou elementos do tema, recortados um a um e prontos para espetar.",
-     "notas": [],
-     "faixas": [
-      {
-       "r": "10 un",
-       "p": 15.5,
-       "a": false
-      },
-      {
-       "r": "15 un",
-       "p": 23,
-       "a": false
-      },
-      {
-       "r": "25 un",
-       "p": 37,
-       "a": false
-      },
-      {
-       "r": "30 un",
-       "p": 44,
-       "a": false
-      },
-      {
-       "r": "50 un",
-       "p": 73.5,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "topo-bolo",
-     "nome": "Topo de bolo",
-     "ativo": true,
-     "tipo": "quote",
-     "un": "un",
-     "conta": false,
-     "busca": "topo de bolo aniversario casamento",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "topo-bolo-1.jpg",
-       "alt": "Topo de bolo personalizado com nome e fotos"
-      },
-      {
-       "src": "topo-bolo-2.jpg",
-       "alt": "Topo de bolo de formatura"
-      }
-     ],
-     "spec": "Projeto exclusivo",
-     "desc": "Cada topo é desenhado do zero. Como o preço depende do formato, das camadas e do acabamento, ele é fechado depois que você envia as inspirações.",
-     "notas": [
-      "Valor informado após a indicação das inspirações."
-     ]
-    },
-    {
-     "sku": "canudos",
-     "nome": "Canudos personalizados",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "canudo canudinho palito foto recorte",
-     "midia": "three tall",
-     "fotos": [
-      {
-       "src": "canudos-1.jpg",
-       "alt": "Canudos de papel com recortes de fotos em copo de aniversário"
-      },
-      {
-       "src": "canudos-2.jpg",
-       "alt": "Canudo verde com recorte de foto de formatura"
-      },
-      {
-       "src": "canudos-3.jpg",
-       "alt": "Canudos de despedida de solteira com recortes de rostos"
-      }
-     ],
-     "spec": "Canudo de papel · recorte aplicado",
-     "desc": "O recorte vai colado no canudo — foto do aniversariante, da formanda, dos convidados ou do casal. O canudo acompanha, na cor que combinar com a festa.",
-     "notas": [],
-     "faixas": [
-      {
-       "r": "10 un",
-       "p": 18,
-       "a": false
-      },
-      {
-       "r": "15 un",
-       "p": 25,
-       "a": false
-      },
-      {
-       "r": "25 un",
-       "p": 30,
-       "a": false
-      },
-      {
-       "r": "50 un",
-       "p": 60,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "tags-nominais",
-     "nome": "Marca-lugar",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "un",
-     "conta": true,
-     "busca": "tag nominal marcador de lugar marca lugar place card nome do convidado mesa posta taca prato",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "tags-nominais-1.jpg",
-       "alt": "Marca-lugar em papel verde ao lado da taça na mesa posta"
-      },
-      {
-       "src": "tags-nominais-2.jpg",
-       "alt": "Marca-lugar preso na taça com prendedor de madeira"
-      }
-     ],
-     "spec": "Dois formatos · venda por unidade",
-     "desc": "O cartão com o nome que marca o lugar de cada convidado: em pé sobre o prato ou preso na taça. Sai na cor e na arte do tema da festa.",
-     "notas": [],
-     "faixas": [
-      {
-       "r": "Taça · 10x7 cm",
-       "p": 2.3,
-       "a": false
-      },
-      {
-       "r": "Mesa · 10x6,5 cm",
-       "p": 3,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "placas",
-     "nome": "Placas e papelaria personalizada",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "placa plaquinha aviso boas vindas cavalete arco",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "papelaria-1.jpg",
-       "alt": "Placa de aniversário no cavalete ao lado do bolo"
-      },
-      {
-       "src": "papelaria-2.jpg",
-       "alt": "Placa de bridal shower apoiada na mesa do bolo"
-      }
-     ],
-     "spec": "Dois formatos · papel rígido",
-     "desc": "As plaquinhas de boas-vindas, avisos e brincadeiras que ficam espalhadas pela festa.",
-     "notas": [
-      "Cavalete de madeira vendido separadamente — R$ 6,00."
-     ],
-     "faixas": [
-      {
-       "r": "16×10 cm · 1 un",
-       "p": 8,
-       "a": false
-      },
-      {
-       "r": "16×10 cm · 2 un",
-       "p": 15,
-       "a": false
-      },
-      {
-       "r": "16×10 cm · 5 un",
-       "p": 35,
-       "a": false
-      },
-      {
-       "r": "16×10 cm · 10 un",
-       "p": 56,
-       "a": false
-      },
-      {
-       "r": "16×10 cm · 20 un",
-       "p": 102,
-       "a": false
-      },
-      {
-       "r": "26×18 cm · 1 un",
-       "p": 11.5,
-       "a": false
-      },
-      {
-       "r": "26×18 cm · 2 un",
-       "p": 20,
-       "a": false
-      },
-      {
-       "r": "26×18 cm · 5 un",
-       "p": 38,
-       "a": false
-      },
-      {
-       "r": "26×18 cm · 10 un",
-       "p": 65,
-       "a": false
-      },
-      {
-       "r": "26×18 cm · 20 un",
-       "p": 120,
-       "a": false
-      }
-     ],
-     "adicional": {
-      "nome": "Cavalete de madeira",
-      "preco": 6
-     }
-    },
-    {
-     "sku": "bandeirolas",
-     "nome": "Varalzinho de bandeirolas",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "varal",
-     "conta": false,
-     "busca": "varal bandeirinha bandeirola nome letras mesa de doces",
-     "midia": "",
-     "fotos": [
-      {
-       "src": "bandeirolas-1.jpg",
-       "alt": "Varalzinho de bandeirolas com o nome Vivi na mesa de doces"
-      }
-     ],
-     "spec": "Preço por bandeirola",
-     "desc": "Monte o nome, a idade ou a frase do tema. Conte uma bandeirola por letra.",
-     "notas": [
-      "Valor passível de acréscimo conforme os adicionais escolhidos."
-     ],
-     "faixas": [
-      {
-       "r": "8 bandeirolas",
-       "p": 20,
-       "a": false
-      },
-      {
-       "r": "12 bandeirolas",
-       "p": 25.5,
-       "a": false
-      },
-      {
-       "r": "16 bandeirolas",
-       "p": 31,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "cardapio",
-     "nome": "Cardápio de drinks",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "menu drinks cardapio bebidas aquarela bar carta placa cavalete let's drink",
-     "midia": "three tall",
-     "fotos": [
-      {
-       "src": "cardapio-1.jpg",
-       "alt": "Cardápio de drinks com moldura de azulejo português no cavalete"
-      },
-      {
-       "src": "cardapio-3.jpg",
-       "alt": "Noiva segurando o cardápio de drinks da despedida"
-      },
-      {
-       "src": "cardapio-80b5bcd2.jpg",
-       "alt": "Cardápio de drinks"
-      }
-     ],
-     "spec": "26 × 18 cm · com aquarela",
-     "desc": "A placa que fica no bar ou na mesa, com os drinks da noite ilustrados em aquarela. Um por ambiente já resolve.",
-     "notas": [
-      "Versões com mais elementos têm valor à parte. Cavalete de madeira vendido separadamente — R$ 6,00."
-     ],
-     "preco": 15,
-     "adicional": {
-      "nome": "Cavalete de madeira",
-      "preco": 6
-     },
-     "porUnidade": "por unidade"
-    },
-    {
-     "sku": "menu-individual",
-     "nome": "Menu individual",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "menu individual carta do convidado cardapio de mao entrada prato sobremesa drinks jantar 10x20",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "menu-ind-1.jpg",
-       "alt": "Menu individual de formatura entregue na sacola do convidado"
-      },
-      {
-       "src": "menu-ind-2.jpg",
-       "alt": "Menus individuais em arco com o título em hotstamping dourado"
-      }
-     ],
-     "spec": "10 × 20 cm · um por convidado",
-     "desc": "A carta que vai na mão de cada convidado, no prato ou dentro da sacola, com o menu da noite. Cabe também recado, instruções e agradecimento.",
-     "notas": [
-      "Sai por R$ 5,60 a unidade no pacote de 5 e por R$ 4,92 no de 25."
-     ],
-     "faixas": [
-      {
-       "r": "5 un",
-       "p": 28,
-       "a": false
-      },
-      {
-       "r": "10 un",
-       "p": 55,
-       "a": false
-      },
-      {
-       "r": "15 un",
-       "p": 80,
-       "a": false
-      },
-      {
-       "r": "20 un",
-       "p": 100,
-       "a": false
-      },
-      {
-       "r": "25 un",
-       "p": 123,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "tags-pers",
-     "nome": "Tags nominais personalizadas",
-     "ativo": true,
-     "tipo": "quote",
-     "un": "un",
-     "conta": false,
-     "busca": "etiqueta tag nominal lembrancinha sacola brinde nome do convidado redonda organica recorte formato",
-     "midia": "three tall",
-     "fotos": [
-      {
-       "src": "tags-pers-1.jpg",
-       "alt": "Arte da tag nominal com a faixa do nome do convidado"
-      },
-      {
-       "src": "tags-pers-7bd8655c.jpg",
-       "alt": "Tags nominais personalizadas"
-      },
-      {
-       "src": "tags-pers-795484e6.jpg",
-       "alt": "Tags nominais personalizadas"
-      }
-     ],
-     "spec": "Preço por folha de ofício",
-     "desc": "Quadradas, retangulares, redondas ou de recorte orgânico. O cálculo é por folha de ofício: quanto menor a tag, mais unidades cabem em cada uma.",
-     "notas": [
-      "O preço depende da quantidade, do tamanho e do formato. Mande sua ideia no WhatsApp que a gente faz o orçamento."
-     ],
-     "faixas": []
-    },
-    {
-     "sku": "jogo-americano",
-     "nome": "Jogo americano personalizado",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "sousplat mesa posta confraternizacao jantar a3",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "jogo-americano-1.jpg",
-       "alt": "Jogo americano de confraternização de Natal com o nome do convidado"
-      },
-      {
-       "src": "jogo-americano-2.jpg",
-       "alt": "Jogo americano de confraternização com arte em verde"
-      }
-     ],
-     "spec": "Tamanho A3",
-     "desc": "Para confraternizações e jantares. Sai com o nome de cada convidado, a data ou a arte do tema.",
-     "notas": [],
-     "preco": 6,
-     "porUnidade": "por unidade"
-    }
-   ],
-   "menu": "Papelaria & Festa",
-   "chip": "Papelaria & Festa"
+  "versao": 1,
+  "contato": {
+    "whatsapp": "558130725097",
+    "telefone": "(81) 3072-5097",
+    "instagram": "fratelli.atelier"
   },
-  {
-   "id": "despedida",
-   "alt": true,
-   "ativa": true,
-   "eyebrow": "02 · Despedida de solteira",
-   "titulo": "Da decoração da mesa às brincadeiras",
-   "lede": "Os itens que fazem a noite andar sozinha: plaquinhas de rosto, anéis de taça e jogos prontos para imprimir e jogar. O cardápio de drinks e o menu individual estão em <a href=\"#papelaria\">Papelaria &amp; Festa</a>.",
-   "busca": "",
-   "grid": "three",
-   "produtos": [
+  "secoes": [
     {
-     "sku": "anel-tacas",
-     "nome": "Anel para taças",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "anel taca marcador de taca despedida",
-     "midia": "",
-     "fotos": [
-      {
-       "src": "anel-tacas-1.jpg",
-       "alt": "Anéis de taça em formato de anel de noivado, com o nome de cada convidada"
-      }
-     ],
-     "spec": "Venda por unidade",
-     "desc": "Cada convidada acha a própria taça a noite inteira. Recorte em formato de anel de noivado, com o nome de quem bebe.",
-     "notas": [],
-     "preco": 1.5,
-     "porUnidade": "cada"
+      "ativa": true,
+      "grid": "",
+      "alt": false,
+      "eyebrow": "01 · Papelaria & Festa",
+      "chip": "Papelaria & Festa",
+      "titulo": "O kit completo da mesa de doces",
+      "produtos": [
+        {
+          "midia": "three",
+          "notas": [
+            "Para quantidades maiores, some cartelas: o total sai em múltiplos de 15 no tamanho de 5 cm e de 12 nos de 6 e 7 cm."
+          ],
+          "conta": true,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "adesivos-1.jpg",
+              "alt": "Adesivos redondos personalizados com foto e frase"
+            },
+            {
+              "src": "adesivos-2.jpg",
+              "alt": "Adesivo redondo aplicado em blusa"
+            },
+            {
+              "src": "adesivos-3.jpg",
+              "alt": "Adesivo personalizado em sacola de presente"
+            }
+          ],
+          "desc": "Para lembrancinhas, copos, sacolas e garrafas. A venda é por cartela, e a quantidade dentro dela muda conforme o tamanho.",
+          "tipo": "opt",
+          "un": "cartela",
+          "nome": "Adesivos",
+          "spec": "Papel adesivo · corte redondo",
+          "faixas": [
+            {
+              "r": "5 cm · 15 adesivos",
+              "p": 15.5,
+              "a": false
+            },
+            {
+              "r": "6 cm · 12 adesivos",
+              "p": 15.5,
+              "a": false
+            },
+            {
+              "r": "7 cm · 12 adesivos",
+              "p": 18,
+              "a": false
+            }
+          ],
+          "sku": "adesivos",
+          "busca": "sticker stickers bolacha lembrancinha copo garrafa sacola"
+        },
+        {
+          "midia": "three",
+          "notas": [],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "toppers-1.jpg",
+              "alt": "Toppers de doces com fotos de crianças"
+            },
+            {
+              "src": "toppers-2.jpg",
+              "alt": "Toppers de formatura espetados em brigadeiros"
+            },
+            {
+              "src": "toppers-3.jpg",
+              "alt": "Toppers de sol e de rostos em palito"
+            }
+          ],
+          "desc": "Fotos, frases ou elementos do tema, recortados um a um e prontos para espetar.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Toppers de doces",
+          "spec": "Recorte especial · palito incluso",
+          "faixas": [
+            {
+              "r": "10 un",
+              "p": 15.5,
+              "a": false
+            },
+            {
+              "r": "15 un",
+              "p": 23,
+              "a": false
+            },
+            {
+              "r": "25 un",
+              "p": 37,
+              "a": false
+            },
+            {
+              "r": "30 un",
+              "p": 44,
+              "a": false
+            },
+            {
+              "r": "50 un",
+              "p": 73.5,
+              "a": false
+            }
+          ],
+          "sku": "toppers",
+          "busca": "topo de doce brigadeiro docinho palito espeto"
+        },
+        {
+          "midia": "two tall",
+          "notas": [
+            "Valor informado após a indicação das inspirações."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "topo-bolo-1.jpg",
+              "alt": "Topo de bolo personalizado com nome e fotos"
+            },
+            {
+              "src": "topo-bolo-2.jpg",
+              "alt": "Topo de bolo de formatura"
+            }
+          ],
+          "desc": "Cada topo é desenhado do zero. Como o preço depende do formato, das camadas e do acabamento, ele é fechado depois que você envia as inspirações.",
+          "tipo": "quote",
+          "un": "un",
+          "nome": "Topo de bolo",
+          "spec": "Projeto exclusivo",
+          "sku": "topo-bolo",
+          "busca": "topo de bolo aniversario casamento"
+        },
+        {
+          "midia": "three tall",
+          "notas": [],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "canudos-1.jpg",
+              "alt": "Canudos de papel com recortes de fotos em copo de aniversário"
+            },
+            {
+              "src": "canudos-2.jpg",
+              "alt": "Canudo verde com recorte de foto de formatura"
+            },
+            {
+              "src": "canudos-3.jpg",
+              "alt": "Canudos de despedida de solteira com recortes de rostos"
+            }
+          ],
+          "desc": "O recorte vai colado no canudo — foto do aniversariante, da formanda, dos convidados ou do casal. O canudo acompanha, na cor que combinar com a festa.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Canudos personalizados",
+          "spec": "Canudo de papel · recorte aplicado",
+          "faixas": [
+            {
+              "r": "10 un",
+              "p": 18,
+              "a": false
+            },
+            {
+              "r": "15 un",
+              "p": 25,
+              "a": false
+            },
+            {
+              "r": "25 un",
+              "p": 30,
+              "a": false
+            },
+            {
+              "r": "50 un",
+              "p": 60,
+              "a": false
+            }
+          ],
+          "sku": "canudos",
+          "busca": "canudo canudinho palito foto recorte"
+        },
+        {
+          "midia": "two tall",
+          "notas": [],
+          "conta": true,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "tags-nominais-1.jpg",
+              "alt": "Marca-lugar em papel verde ao lado da taça na mesa posta"
+            },
+            {
+              "src": "tags-nominais-2.jpg",
+              "alt": "Marca-lugar preso na taça com prendedor de madeira"
+            }
+          ],
+          "desc": "O cartão com o nome que marca o lugar de cada convidado: em pé sobre o prato ou preso na taça. Sai na cor e na arte do tema da festa.",
+          "tipo": "opt",
+          "un": "un",
+          "nome": "Marca-lugar",
+          "spec": "Dois formatos · venda por unidade",
+          "faixas": [
+            {
+              "r": "Taça · 10x7 cm",
+              "p": 2.3,
+              "a": false
+            },
+            {
+              "r": "Mesa · 10x6,5 cm",
+              "p": 3,
+              "a": false
+            }
+          ],
+          "sku": "tags-nominais",
+          "busca": "tag nominal marcador de lugar marca lugar place card nome do convidado mesa posta taca prato"
+        },
+        {
+          "midia": "two tall",
+          "notas": [
+            "Cavalete de madeira vendido separadamente — R$ 6,00."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "papelaria-1.jpg",
+              "alt": "Placa de aniversário no cavalete ao lado do bolo"
+            },
+            {
+              "src": "papelaria-2.jpg",
+              "alt": "Placa de bridal shower apoiada na mesa do bolo"
+            }
+          ],
+          "desc": "As plaquinhas de boas-vindas, avisos e brincadeiras que ficam espalhadas pela festa.",
+          "tipo": "opt",
+          "adicional": {
+            "nome": "Cavalete de madeira",
+            "preco": 6
+          },
+          "un": "pacote",
+          "nome": "Placas e papelaria personalizada",
+          "spec": "Dois formatos · papel rígido",
+          "faixas": [
+            {
+              "r": "16×10 cm · 1 un",
+              "p": 8,
+              "a": false
+            },
+            {
+              "r": "16×10 cm · 2 un",
+              "p": 15,
+              "a": false
+            },
+            {
+              "r": "16×10 cm · 5 un",
+              "p": 35,
+              "a": false
+            },
+            {
+              "r": "16×10 cm · 10 un",
+              "p": 56,
+              "a": false
+            },
+            {
+              "r": "16×10 cm · 20 un",
+              "p": 102,
+              "a": false
+            },
+            {
+              "r": "26×18 cm · 1 un",
+              "p": 11.5,
+              "a": false
+            },
+            {
+              "r": "26×18 cm · 2 un",
+              "p": 20,
+              "a": false
+            },
+            {
+              "r": "26×18 cm · 5 un",
+              "p": 38,
+              "a": false
+            },
+            {
+              "r": "26×18 cm · 10 un",
+              "p": 65,
+              "a": false
+            },
+            {
+              "r": "26×18 cm · 20 un",
+              "p": 120,
+              "a": false
+            }
+          ],
+          "sku": "placas",
+          "busca": "placa plaquinha aviso boas vindas cavalete arco"
+        },
+        {
+          "midia": "",
+          "notas": [
+            "Valor passível de acréscimo conforme os adicionais escolhidos."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "bandeirolas-1.jpg",
+              "alt": "Varalzinho de bandeirolas com o nome Vivi na mesa de doces"
+            }
+          ],
+          "desc": "Monte o nome, a idade ou a frase do tema. Conte uma bandeirola por letra.",
+          "tipo": "opt",
+          "un": "varal",
+          "nome": "Varalzinho de bandeirolas",
+          "spec": "Preço por bandeirola",
+          "faixas": [
+            {
+              "r": "8 bandeirolas",
+              "p": 20,
+              "a": false
+            },
+            {
+              "r": "12 bandeirolas",
+              "p": 25.5,
+              "a": false
+            },
+            {
+              "r": "16 bandeirolas",
+              "p": 31,
+              "a": false
+            }
+          ],
+          "sku": "bandeirolas",
+          "busca": "varal bandeirinha bandeirola nome letras mesa de doces"
+        },
+        {
+          "midia": "three tall",
+          "notas": [
+            "Versões com mais elementos têm valor à parte. Cavalete de madeira vendido separadamente — R$ 6,00."
+          ],
+          "preco": 15,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "cardapio-1.jpg",
+              "alt": "Cardápio de drinks com moldura de azulejo português no cavalete"
+            },
+            {
+              "src": "cardapio-3.jpg",
+              "alt": "Noiva segurando o cardápio de drinks da despedida"
+            },
+            {
+              "src": "cardapio-80b5bcd2.jpg",
+              "alt": "Cardápio de drinks"
+            }
+          ],
+          "desc": "A placa que fica no bar ou na mesa, com os drinks da noite ilustrados em aquarela. Um por ambiente já resolve.",
+          "tipo": "unit",
+          "adicional": {
+            "nome": "Cavalete de madeira",
+            "preco": 6
+          },
+          "un": "un",
+          "nome": "Cardápio de drinks",
+          "porUnidade": "por unidade",
+          "spec": "26 × 18 cm · com aquarela",
+          "sku": "cardapio",
+          "busca": "menu drinks cardapio bebidas aquarela bar carta placa cavalete let's drink"
+        },
+        {
+          "midia": "two tall",
+          "notas": [
+            "Sai por R$ 5,60 a unidade no pacote de 5 e por R$ 4,92 no de 25."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "menu-ind-1.jpg",
+              "alt": "Menu individual de formatura entregue na sacola do convidado"
+            },
+            {
+              "src": "menu-ind-2.jpg",
+              "alt": "Menus individuais em arco com o título em hotstamping dourado"
+            }
+          ],
+          "desc": "A carta que vai na mão de cada convidado, no prato ou dentro da sacola, com o menu da noite. Cabe também recado, instruções e agradecimento.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Menu individual",
+          "spec": "10 × 20 cm · um por convidado",
+          "faixas": [
+            {
+              "r": "5 un",
+              "p": 28,
+              "a": false
+            },
+            {
+              "r": "10 un",
+              "p": 55,
+              "a": false
+            },
+            {
+              "r": "15 un",
+              "p": 80,
+              "a": false
+            },
+            {
+              "r": "20 un",
+              "p": 100,
+              "a": false
+            },
+            {
+              "r": "25 un",
+              "p": 123,
+              "a": false
+            }
+          ],
+          "sku": "menu-individual",
+          "busca": "menu individual carta do convidado cardapio de mao entrada prato sobremesa drinks jantar 10x20"
+        },
+        {
+          "midia": "three tall",
+          "notas": [
+            "O preço depende da quantidade, do tamanho e do formato. Mande sua ideia no WhatsApp que a gente faz o orçamento."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "tags-pers-1.jpg",
+              "alt": "Arte da tag nominal com a faixa do nome do convidado"
+            },
+            {
+              "src": "tags-pers-7bd8655c.jpg",
+              "alt": "Tags nominais personalizadas"
+            },
+            {
+              "src": "tags-pers-795484e6.jpg",
+              "alt": "Tags nominais personalizadas"
+            }
+          ],
+          "desc": "Quadradas, retangulares, redondas ou de recorte orgânico. O cálculo é por folha de ofício: quanto menor a tag, mais unidades cabem em cada uma.",
+          "tipo": "quote",
+          "un": "un",
+          "nome": "Tags nominais personalizadas",
+          "spec": "Preço por folha de ofício",
+          "faixas": [],
+          "sku": "tags-pers",
+          "busca": "etiqueta tag nominal lembrancinha sacola brinde nome do convidado redonda organica recorte formato"
+        },
+        {
+          "midia": "two tall",
+          "notas": [],
+          "preco": 6,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "jogo-americano-1.jpg",
+              "alt": "Jogo americano de confraternização de Natal com o nome do convidado"
+            },
+            {
+              "src": "jogo-americano-2.jpg",
+              "alt": "Jogo americano de confraternização com arte em verde"
+            }
+          ],
+          "desc": "Para confraternizações e jantares. Sai com o nome de cada convidado, a data ou a arte do tema.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Jogo americano personalizado",
+          "porUnidade": "por unidade",
+          "spec": "Tamanho A3",
+          "sku": "jogo-americano",
+          "busca": "sousplat mesa posta confraternizacao jantar a3"
+        }
+      ],
+      "lede": "Os itens que mais saem para aniversários, chás e formaturas. Todos os valores são por quantidade fechada, já com a arte personalizada.",
+      "id": "papelaria",
+      "busca": "",
+      "menu": "Papelaria & Festa"
     },
     {
-     "sku": "plaquinha",
-     "nome": "Plaquinha de rosto",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "plaquinha de rosto rosto palito photo booth cara noivo",
-     "midia": "",
-     "fotos": [
-      {
-       "src": "plaquinha-1.jpg",
-       "alt": "Plaquinhas de rosto recortadas em palito"
-      }
-     ],
-     "spec": "Recorte em palito",
-     "desc": "O rosto do noivo, do crush ou de quem a noiva escolher — recortado e montado no palito.",
-     "notas": [],
-     "preco": 8,
-     "porUnidade": "cada"
+      "ativa": true,
+      "grid": "three",
+      "alt": true,
+      "eyebrow": "02 · Despedida de solteira",
+      "chip": "Despedida de solteira",
+      "titulo": "Da decoração da mesa às brincadeiras",
+      "produtos": [
+        {
+          "midia": "",
+          "notas": [],
+          "preco": 1.5,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "anel-tacas-1.jpg",
+              "alt": "Anéis de taça em formato de anel de noivado, com o nome de cada convidada"
+            }
+          ],
+          "desc": "Cada convidada acha a própria taça a noite inteira. Recorte em formato de anel de noivado, com o nome de quem bebe.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Anel para taças",
+          "porUnidade": "cada",
+          "spec": "Venda por unidade",
+          "sku": "anel-tacas",
+          "busca": "anel taca marcador de taca despedida"
+        },
+        {
+          "midia": "",
+          "notas": [],
+          "preco": 8,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "plaquinha-1.jpg",
+              "alt": "Plaquinhas de rosto recortadas em palito"
+            }
+          ],
+          "desc": "O rosto do noivo, do crush ou de quem a noiva escolher — recortado e montado no palito.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Plaquinha de rosto",
+          "porUnidade": "cada",
+          "spec": "Recorte em palito",
+          "sku": "plaquinha",
+          "busca": "plaquinha de rosto rosto palito photo booth cara noivo"
+        },
+        {
+          "midia": "two tall",
+          "notas": [],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "jogos-1.jpg",
+              "alt": "Cartela do jogo Guess the Dress"
+            },
+            {
+              "src": "jogos-2.jpg",
+              "alt": "Cartela Favorite Memory with the Bride"
+            }
+          ],
+          "desc": "Personalizados e já prontos para as brincadeiras — uma cópia por convidada.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Jogos",
+          "spec": "Preço por quantidade de cópias",
+          "faixas": [
+            {
+              "r": "10 cópias",
+              "p": 19,
+              "a": false
+            },
+            {
+              "r": "20 cópias",
+              "p": 36,
+              "a": false
+            },
+            {
+              "r": "60 cópias",
+              "p": 87,
+              "a": false
+            }
+          ],
+          "sku": "jogos",
+          "busca": "brincadeira brincadeiras dinamica guess the dress bridal shower"
+        },
+        {
+          "midia": "",
+          "notas": [
+            "Apenas a caixa de papel; os itens de dentro são comprados separadamente."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "kit-ressaca-1.jpg",
+              "alt": "Caixa Kit Ressaca personalizada"
+            }
+          ],
+          "desc": "A caixa sai pronta com a arte da despedida. Você monta o recheio do jeito que quiser.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Kit Ressaca",
+          "spec": "Caixa de papel personalizada",
+          "faixas": [
+            {
+              "r": "5 un",
+              "p": 30,
+              "a": false
+            },
+            {
+              "r": "10 un",
+              "p": 55,
+              "a": false
+            },
+            {
+              "r": "15 un",
+              "p": 87,
+              "a": false
+            },
+            {
+              "r": "20 un",
+              "p": 114,
+              "a": false
+            },
+            {
+              "r": "25 un",
+              "p": 140,
+              "a": false
+            }
+          ],
+          "sku": "kit-ressaca",
+          "busca": "caixa kit ressaca lembrancinha despedida"
+        }
+      ],
+      "lede": "Os itens que fazem a noite andar sozinha: plaquinhas de rosto, anéis de taça e jogos prontos para imprimir e jogar. O cardápio de drinks e o menu individual estão em <a href=\"#papelaria\">Papelaria &amp; Festa</a>.",
+      "id": "despedida",
+      "busca": "",
+      "menu": "Despedida"
     },
     {
-     "sku": "jogos",
-     "nome": "Jogos",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "brincadeira brincadeiras dinamica guess the dress bridal shower",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "jogos-1.jpg",
-       "alt": "Cartela do jogo Guess the Dress"
-      },
-      {
-       "src": "jogos-2.jpg",
-       "alt": "Cartela Favorite Memory with the Bride"
-      }
-     ],
-     "spec": "Preço por quantidade de cópias",
-     "desc": "Personalizados e já prontos para as brincadeiras — uma cópia por convidada.",
-     "notas": [],
-     "faixas": [
-      {
-       "r": "10 cópias",
-       "p": 19,
-       "a": false
-      },
-      {
-       "r": "20 cópias",
-       "p": 36,
-       "a": false
-      },
-      {
-       "r": "60 cópias",
-       "p": 87,
-       "a": false
-      }
-     ]
+      "ativa": true,
+      "grid": "",
+      "alt": false,
+      "eyebrow": "03 · Casamento",
+      "chip": "Casamento",
+      "titulo": "Cerimônia, recepção e os detalhes no meio",
+      "produtos": [
+        {
+          "midia": "",
+          "notas": [],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "lagrimas-1.jpg",
+              "alt": "Lágrimas de alegria e ventarola com o monograma dos noivos"
+            }
+          ],
+          "desc": "Chega pronta para distribuir na entrada da cerimônia, com o monograma e a data do casal.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Lágrimas de alegria",
+          "spec": "Entregue montada",
+          "faixas": [
+            {
+              "r": "25 un",
+              "p": 40,
+              "a": false
+            },
+            {
+              "r": "50 un",
+              "p": 79,
+              "a": false
+            },
+            {
+              "r": "80 un",
+              "p": 126,
+              "a": false
+            },
+            {
+              "r": "100 un",
+              "p": 157,
+              "a": false
+            },
+            {
+              "r": "150 un",
+              "p": 235,
+              "a": false
+            }
+          ],
+          "sku": "lagrimas",
+          "busca": "lagrimas de alegria lenco cerimonia igreja casamento"
+        },
+        {
+          "midia": "two tall",
+          "notas": [],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "ventarolas-1.jpg",
+              "alt": "Ventarolas de casamento com monograma dos noivos e a frase Espalhe amor"
+            },
+            {
+              "src": "ventarolas-2.jpg",
+              "alt": "Ventarola personalizada em papel mate"
+            }
+          ],
+          "desc": "Para cerimônia ao ar livre ou igreja quente — o papel mais encorpado aguenta a festa inteira.",
+          "tipo": "opt",
+          "un": "pacote",
+          "nome": "Ventarolas",
+          "spec": "Papel mate 180 g",
+          "faixas": [
+            {
+              "r": "25 un",
+              "p": 70,
+              "a": false
+            },
+            {
+              "r": "50 un",
+              "p": 134.9,
+              "a": false
+            },
+            {
+              "r": "80 un",
+              "p": 214.9,
+              "a": false
+            },
+            {
+              "r": "100 un",
+              "p": 266,
+              "a": false
+            },
+            {
+              "r": "150 un",
+              "p": 398.9,
+              "a": false
+            }
+          ],
+          "sku": "ventarolas",
+          "busca": "leque abanador ventarola cerimonia calor casamento"
+        },
+        {
+          "midia": "two",
+          "notas": [
+            "Orçamento personalizado — entre em contato pelo WhatsApp."
+          ],
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "kit-toalete-1.jpg",
+              "alt": "Kit toalete feminino montado em bandeja"
+            },
+            {
+              "src": "kit-toalete-2.jpg",
+              "alt": "Kit toalete masculino organizado em caixas"
+            }
+          ],
+          "desc": "Montamos os dois lavabos com etiquetas personalizadas. Como o conteúdo muda de casamento para casamento, fechamos o valor caso a caso.",
+          "tipo": "quote",
+          "un": "kit",
+          "nome": "Kit toalete",
+          "spec": "Feminino e masculino",
+          "sku": "kit-toalete",
+          "busca": "lavabo banheiro toalete kit casamento"
+        }
+      ],
+      "lede": "Itens entregues montados e prontos para uso, nas quantidades que a lista de convidados pede. O cardápio de drinks e o menu individual estão em <a href=\"#papelaria\">Papelaria &amp; Festa</a>.",
+      "id": "casamento",
+      "busca": "",
+      "menu": "Casamento"
     },
     {
-     "sku": "kit-ressaca",
-     "nome": "Kit Ressaca",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "caixa kit ressaca lembrancinha despedida",
-     "midia": "",
-     "fotos": [
-      {
-       "src": "kit-ressaca-1.jpg",
-       "alt": "Caixa Kit Ressaca personalizada"
-      }
-     ],
-     "spec": "Caixa de papel personalizada",
-     "desc": "A caixa sai pronta com a arte da despedida. Você monta o recheio do jeito que quiser.",
-     "notas": [
-      "Apenas a caixa de papel; os itens de dentro são comprados separadamente."
-     ],
-     "faixas": [
-      {
-       "r": "5 un",
-       "p": 30,
-       "a": false
+      "ativa": true,
+      "havaianas": {
+        "nome": "Havaianas Color",
+        "preco": 18.5,
+        "minimo": 6,
+        "cores": [
+          {
+            "nome": "Vermelho Apache",
+            "cor": "#C8341F",
+            "fundo": "#F7E8E5"
+          },
+          {
+            "nome": "Preto",
+            "cor": "#1A1A1A",
+            "fundo": "#ECEAEA"
+          },
+          {
+            "nome": "Azul Naval",
+            "cor": "#1E3A63",
+            "fundo": "#DCE6F2"
+          },
+          {
+            "nome": "Branco",
+            "cor": "#FAFAF7",
+            "fundo": "#EFEDE6"
+          },
+          {
+            "nome": "Café",
+            "cor": "#3D2318",
+            "fundo": "#E8E0D6"
+          },
+          {
+            "nome": "Verde Pátria",
+            "cor": "#2E7D4F",
+            "fundo": "#DDEEE2"
+          },
+          {
+            "nome": "Rosa Flux",
+            "cor": "#F0508E",
+            "fundo": "#FCE0EC"
+          },
+          {
+            "nome": "Rosa Ballet",
+            "cor": "#F2C2CE",
+            "fundo": "#FBE9EE"
+          }
+        ],
+        "numeracoes": [
+          "33/34",
+          "35/36",
+          "37/38",
+          "39/40",
+          "41/42",
+          "43/44",
+          "45/46"
+        ],
+        "fichas": [
+          {
+            "rotulo": "Numeração",
+            "texto": "A numeração da linha Color é um pouco menor que a comum. Quem calça 36 comum deve pedir 37/38 Color — use essa referência ao anotar o pedido dos convidados."
+          },
+          {
+            "rotulo": "Mínimo",
+            "texto": "6 pares por numeração solicitada. Cores diferentes na mesma numeração somam."
+          },
+          {
+            "rotulo": "Prazo",
+            "texto": "Pedimos pelo menos duas semanas de antecedência."
+          }
+        ]
       },
-      {
-       "r": "10 un",
-       "p": 55,
-       "a": false
-      },
-      {
-       "r": "15 un",
-       "p": 87,
-       "a": false
-      },
-      {
-       "r": "20 un",
-       "p": 114,
-       "a": false
-      },
-      {
-       "r": "25 un",
-       "p": 140,
-       "a": false
-      }
-     ]
+      "grid": "",
+      "alt": true,
+      "eyebrow": "04 · Novidade",
+      "chip": "Havaianas Color",
+      "tipo": "havaianas",
+      "titulo": "Havaianas Color",
+      "produtos": [],
+      "lede": "Chinelo original Havaianas, linha Color — sola macia, tiras emborrachadas e a durabilidade de sempre. Em cores para combinar com cada cerimônia, seja para presentear convidados ou compor o kit da noiva e do noivo.",
+      "id": "havaianas",
+      "busca": "havaianas color chinelo sandália sandalia par pares casamento lembrança convidados noiva noivo",
+      "menu": "Havaianas Color"
+    },
+    {
+      "ativa": true,
+      "grid": "three",
+      "alt": false,
+      "eyebrow": "05 · Planners, cadernos e cadernetas",
+      "chip": "Planners & Cadernos",
+      "passos": [
+        "<strong>Escolha o modelo</strong> — planner católico, agenda ou caderno.",
+        "<strong>Escolha o miolo</strong> — três opções de interior, apenas para o planner.",
+        "<strong>Envie inspirações</strong> de capa para desenharmos a sua.",
+        "<strong>Escolha a laminação</strong> — glossy ou fosca.",
+        "<strong>Escolha o nome</strong> do hotstamping: dourado, prata ou rosê gold."
+      ],
+      "titulo": "Personalizando, passo a passo",
+      "produtos": [
+        {
+          "midia": "two tall",
+          "notas": [],
+          "preco": 76.9,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "planner-capa.jpg",
+              "alt": "Planner Católico 2026 com capa de laço e versículo, wire-o bronze"
+            },
+            {
+              "src": "planner-f4cbae05.jpg",
+              "alt": "Planner Católico"
+            }
+          ],
+          "desc": "Visão mensal, páginas diárias com o calendário litúrgico, acompanhamento de leituras e controle de hábitos — missa diária, Lectio Divina, Laudes, Completas e Terço.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Planner Católico",
+          "porUnidade": "",
+          "spec": "Wire-o bronze ou dourado",
+          "sku": "planner",
+          "busca": "planner catolico agenda 2026 habitos lectio divina terco"
+        },
+        {
+          "midia": "two tall",
+          "notas": [],
+          "preco": 59.9,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "agenda-capa.jpg",
+              "alt": "Agendas 2026 com capas personalizadas em wire-o"
+            },
+            {
+              "src": "agenda-capa-2.jpg",
+              "alt": "Página de abertura da Agenda 2026"
+            }
+          ],
+          "desc": "Horário semanal, abertura de mês personalizável conforme o tema e páginas diárias com espaço para anotações. A capa é desenhada do zero, com o nome em hotstamping.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Agenda 2026",
+          "porUnidade": "",
+          "spec": "Wire-o branco",
+          "sku": "agenda",
+          "busca": "agenda 2026 planner semanal diaria"
+        },
+        {
+          "midia": "two tall",
+          "notas": [],
+          "preco": 51.9,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "caderno-capa.jpg",
+              "alt": "Caderno com capa de Sagrado Coração e citação, wire-o bronze"
+            },
+            {
+              "src": "caderno-capa-2.jpg",
+              "alt": "Miolo pautado do caderno personalizado"
+            }
+          ],
+          "desc": "Miolo pautado, com bolso de papel na contracapa para folhas e documentos. A capa segue o tema que você escolher — nome, versículo, ilustração.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Caderno",
+          "porUnidade": "",
+          "spec": "Wire-o bronze ou dourado",
+          "sku": "caderno",
+          "busca": "caderno pautado wire-o bloco anotacoes"
+        },
+        {
+          "midia": "tall",
+          "notas": [],
+          "preco": 59.9,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "caderneta.jpg",
+              "alt": "Caderneta de saúde verde-oliva com o nome Francisco em hotstamping"
+            }
+          ],
+          "desc": "Segue o modelo exato da caderneta disponível pelo SUS, com todas as páginas de vacinação, consultas e acompanhamento. Muda só a capa: wire-o com o nome da criança em hotstamping, no mesmo acabamento dos planners.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Caderneta de Saúde",
+          "porUnidade": "",
+          "spec": "Capa personalizada com o nome",
+          "sku": "caderneta",
+          "busca": "caderneta de saude vacinacao vacina bebe crianca consulta pediatra sus modelo oficial ministerio da saude puericultura"
+        },
+        {
+          "midia": "tall",
+          "notas": [],
+          "preco": 29,
+          "conta": false,
+          "ativo": true,
+          "fotos": [
+            {
+              "src": "bobbie-goods.jpg",
+              "alt": "Livro de colorir Bobbie Goods personalizado com o nome Vivi na capa"
+            }
+          ],
+          "desc": "Livro de colorir com 50 desenhos e capa glitter personalizada com o nome. Funciona como lembrancinha de festa infantil ou presente.",
+          "tipo": "unit",
+          "un": "un",
+          "nome": "Bobbie Goods personalizado",
+          "porUnidade": "",
+          "spec": "50 desenhos para colorir",
+          "sku": "bobbie-goods",
+          "busca": "bobbie goods colorir livro de colorir desenho crianca lembrancinha infantil"
+        }
+      ],
+      "lede": "O miolo é nosso, a capa é sua: você escolhe o modelo, o interior, a laminação e o nome que vai em hotstamping. Os cinco passos abaixo valem para o planner, a agenda e o caderno.",
+      "id": "planners",
+      "busca": "",
+      "menu": "Planners & Cadernos"
     }
-   ],
-   "menu": "Despedida",
-   "chip": "Despedida de solteira"
+  ],
+  "prazos": {
+    "padrao": 7,
+    "havaianas": 14
   },
-  {
-   "id": "casamento",
-   "alt": false,
-   "ativa": true,
-   "eyebrow": "03 · Casamento",
-   "titulo": "Cerimônia, recepção e os detalhes no meio",
-   "lede": "Itens entregues montados e prontos para uso, nas quantidades que a lista de convidados pede. O cardápio de drinks e o menu individual estão em <a href=\"#papelaria\">Papelaria &amp; Festa</a>.",
-   "busca": "",
-   "grid": "",
-   "produtos": [
-    {
-     "sku": "lagrimas",
-     "nome": "Lágrimas de alegria",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "lagrimas de alegria lenco cerimonia igreja casamento",
-     "midia": "",
-     "fotos": [
+  "eventos": [
+    "Aniversário",
+    "Chá de bebê",
+    "Chá de panela",
+    "Despedida de solteira",
+    "Casamento",
+    "Formatura",
+    "Confraternização",
+    "Natal",
+    "Outro"
+  ],
+  "galeria": {
+    "eyebrow": "Entregues",
+    "titulo": "Festas que já passaram por aqui",
+    "lede": "Um recorte do que saiu do atelier. Tem muito mais no nosso Instagram.",
+    "fotos": [
       {
-       "src": "lagrimas-1.jpg",
-       "alt": "Lágrimas de alegria e ventarola com o monograma dos noivos"
+        "src": "desp-1.jpg",
+        "alt": "Placa de despedida de solteira em papel recortado"
+      },
+      {
+        "src": "papelaria-2.jpg",
+        "alt": "Placa Bridal Shower ao lado de macarons"
+      },
+      {
+        "src": "plaquinha-2.jpg",
+        "alt": "Mural de fotos personalizado da despedida"
+      },
+      {
+        "src": "toppers-3.jpg",
+        "alt": "Mesa de doces com toppers personalizados"
+      },
+      {
+        "src": "desp-2.jpg",
+        "alt": "Mesa de bridal shower com placa personalizada, flores e macarons"
+      },
+      {
+        "src": "bandeirolas-1.jpg",
+        "alt": "Varalzinho de bandeirolas na mesa de doces"
+      },
+      {
+        "src": "img/img_4932.jpeg",
+        "alt": "Canudo e plaquinah decorativa"
+      },
+      {
+        "src": "galeria-helpmas.jpg",
+        "alt": "Confraternização de Natal com jogo americano, canudo e tag nominal personalizados"
       }
-     ],
-     "spec": "Entregue montada",
-     "desc": "Chega pronta para distribuir na entrada da cerimônia, com o monograma e a data do casal.",
-     "notas": [],
-     "faixas": [
-      {
-       "r": "25 un",
-       "p": 40,
-       "a": false
-      },
-      {
-       "r": "50 un",
-       "p": 79,
-       "a": false
-      },
-      {
-       "r": "80 un",
-       "p": 126,
-       "a": false
-      },
-      {
-       "r": "100 un",
-       "p": 157,
-       "a": false
-      },
-      {
-       "r": "150 un",
-       "p": 235,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "ventarolas",
-     "nome": "Ventarolas",
-     "ativo": true,
-     "tipo": "opt",
-     "un": "pacote",
-     "conta": false,
-     "busca": "leque abanador ventarola cerimonia calor casamento",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "ventarolas-1.jpg",
-       "alt": "Ventarolas de casamento com monograma dos noivos e a frase Espalhe amor"
-      },
-      {
-       "src": "ventarolas-2.jpg",
-       "alt": "Ventarola personalizada em papel mate"
-      }
-     ],
-     "spec": "Papel mate 180 g",
-     "desc": "Para cerimônia ao ar livre ou igreja quente — o papel mais encorpado aguenta a festa inteira.",
-     "notas": [],
-     "faixas": [
-      {
-       "r": "25 un",
-       "p": 70,
-       "a": false
-      },
-      {
-       "r": "50 un",
-       "p": 134.9,
-       "a": false
-      },
-      {
-       "r": "80 un",
-       "p": 214.9,
-       "a": false
-      },
-      {
-       "r": "100 un",
-       "p": 266,
-       "a": false
-      },
-      {
-       "r": "150 un",
-       "p": 398.9,
-       "a": false
-      }
-     ]
-    },
-    {
-     "sku": "kit-toalete",
-     "nome": "Kit toalete",
-     "ativo": true,
-     "tipo": "quote",
-     "un": "kit",
-     "conta": false,
-     "busca": "lavabo banheiro toalete kit casamento",
-     "midia": "two",
-     "fotos": [
-      {
-       "src": "kit-toalete-1.jpg",
-       "alt": "Kit toalete feminino montado em bandeja"
-      },
-      {
-       "src": "kit-toalete-2.jpg",
-       "alt": "Kit toalete masculino organizado em caixas"
-      }
-     ],
-     "spec": "Feminino e masculino",
-     "desc": "Montamos os dois lavabos com etiquetas personalizadas. Como o conteúdo muda de casamento para casamento, fechamos o valor caso a caso.",
-     "notas": [
-      "Orçamento personalizado — entre em contato pelo WhatsApp."
-     ]
-    }
-   ],
-   "menu": "Casamento",
-   "chip": "Casamento"
-  },
-  {
-   "id": "havaianas",
-   "alt": true,
-   "ativa": true,
-   "eyebrow": "04 · Novidade",
-   "titulo": "Havaianas Color",
-   "lede": "Chinelo original Havaianas, linha Color — sola macia, tiras emborrachadas e a durabilidade de sempre. Em cores para combinar com cada cerimônia, seja para presentear convidados ou compor o kit da noiva e do noivo.",
-   "busca": "havaianas color chinelo sandália sandalia par pares casamento lembrança convidados noiva noivo",
-   "grid": "",
-   "produtos": [],
-   "menu": "Havaianas Color",
-   "chip": "Havaianas Color",
-   "tipo": "havaianas",
-   "havaianas": {
-    "nome": "Havaianas Color",
-    "preco": 18.5,
-    "minimo": 6,
-    "cores": [
-     {
-      "nome": "Vermelho Apache",
-      "cor": "#C8341F",
-      "fundo": "#F7E8E5"
-     },
-     {
-      "nome": "Preto",
-      "cor": "#1A1A1A",
-      "fundo": "#ECEAEA"
-     },
-     {
-      "nome": "Azul Naval",
-      "cor": "#1E3A63",
-      "fundo": "#DCE6F2"
-     },
-     {
-      "nome": "Branco",
-      "cor": "#FAFAF7",
-      "fundo": "#EFEDE6"
-     },
-     {
-      "nome": "Café",
-      "cor": "#3D2318",
-      "fundo": "#E8E0D6"
-     },
-     {
-      "nome": "Verde Pátria",
-      "cor": "#2E7D4F",
-      "fundo": "#DDEEE2"
-     },
-     {
-      "nome": "Rosa Flux",
-      "cor": "#F0508E",
-      "fundo": "#FCE0EC"
-     },
-     {
-      "nome": "Rosa Ballet",
-      "cor": "#F2C2CE",
-      "fundo": "#FBE9EE"
-     }
-    ],
-    "numeracoes": [
-     "33/34",
-     "35/36",
-     "37/38",
-     "39/40",
-     "41/42",
-     "43/44",
-     "45/46"
-    ],
-    "fichas": [
-     {
-      "rotulo": "Numeração",
-      "texto": "A numeração da linha Color é um pouco menor que a comum. Quem calça 36 comum deve pedir 37/38 Color — use essa referência ao anotar o pedido dos convidados."
-     },
-     {
-      "rotulo": "Mínimo",
-      "texto": "6 pares por numeração solicitada. Cores diferentes na mesma numeração somam."
-     },
-     {
-      "rotulo": "Prazo",
-      "texto": "Pedimos pelo menos duas semanas de antecedência."
-     }
     ]
-   }
-  },
-  {
-   "id": "planners",
-   "alt": false,
-   "ativa": true,
-   "eyebrow": "05 · Planners, cadernos e cadernetas",
-   "titulo": "Personalizando, passo a passo",
-   "lede": "O miolo é nosso, a capa é sua: você escolhe o modelo, o interior, a laminação e o nome que vai em hotstamping. Os cinco passos abaixo valem para o planner, a agenda e o caderno.",
-   "busca": "",
-   "grid": "three",
-   "produtos": [
-    {
-     "sku": "planner",
-     "nome": "Planner Católico",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "planner catolico agenda 2026 habitos lectio divina terco",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "planner-capa.jpg",
-       "alt": "Planner Católico 2026 com capa de laço e versículo, wire-o bronze"
-      },
-      {
-       "src": "planner-f4cbae05.jpg",
-       "alt": "Planner Católico"
-      }
-     ],
-     "spec": "Wire-o bronze ou dourado",
-     "desc": "Visão mensal, páginas diárias com o calendário litúrgico, acompanhamento de leituras e controle de hábitos — missa diária, Lectio Divina, Laudes, Completas e Terço.",
-     "notas": [],
-     "preco": 76.9,
-     "porUnidade": ""
-    },
-    {
-     "sku": "agenda",
-     "nome": "Agenda 2026",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "agenda 2026 planner semanal diaria",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "agenda-capa.jpg",
-       "alt": "Agendas 2026 com capas personalizadas em wire-o"
-      },
-      {
-       "src": "agenda-capa-2.jpg",
-       "alt": "Página de abertura da Agenda 2026"
-      }
-     ],
-     "spec": "Wire-o branco",
-     "desc": "Horário semanal, abertura de mês personalizável conforme o tema e páginas diárias com espaço para anotações. A capa é desenhada do zero, com o nome em hotstamping.",
-     "notas": [],
-     "preco": 59.9,
-     "porUnidade": ""
-    },
-    {
-     "sku": "caderno",
-     "nome": "Caderno",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "caderno pautado wire-o bloco anotacoes",
-     "midia": "two tall",
-     "fotos": [
-      {
-       "src": "caderno-capa.jpg",
-       "alt": "Caderno com capa de Sagrado Coração e citação, wire-o bronze"
-      },
-      {
-       "src": "caderno-capa-2.jpg",
-       "alt": "Miolo pautado do caderno personalizado"
-      }
-     ],
-     "spec": "Wire-o bronze ou dourado",
-     "desc": "Miolo pautado, com bolso de papel na contracapa para folhas e documentos. A capa segue o tema que você escolher — nome, versículo, ilustração.",
-     "notas": [],
-     "preco": 51.9,
-     "porUnidade": ""
-    },
-    {
-     "sku": "caderneta",
-     "nome": "Caderneta de Saúde",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "caderneta de saude vacinacao vacina bebe crianca consulta pediatra sus modelo oficial ministerio da saude puericultura",
-     "midia": "tall",
-     "fotos": [
-      {
-       "src": "caderneta.jpg",
-       "alt": "Caderneta de saúde verde-oliva com o nome Francisco em hotstamping"
-      }
-     ],
-     "spec": "Capa personalizada com o nome",
-     "desc": "Segue o modelo exato da caderneta disponível pelo SUS, com todas as páginas de vacinação, consultas e acompanhamento. Muda só a capa: wire-o com o nome da criança em hotstamping, no mesmo acabamento dos planners.",
-     "notas": [],
-     "preco": 59.9,
-     "porUnidade": ""
-    },
-    {
-     "sku": "bobbie-goods",
-     "nome": "Bobbie Goods personalizado",
-     "ativo": true,
-     "tipo": "unit",
-     "un": "un",
-     "conta": false,
-     "busca": "bobbie goods colorir livro de colorir desenho crianca lembrancinha infantil",
-     "midia": "tall",
-     "fotos": [
-      {
-       "src": "bobbie-goods.jpg",
-       "alt": "Livro de colorir Bobbie Goods personalizado com o nome Vivi na capa"
-      }
-     ],
-     "spec": "50 desenhos para colorir",
-     "desc": "Livro de colorir com 50 desenhos e capa glitter personalizada com o nome. Funciona como lembrancinha de festa infantil ou presente.",
-     "notas": [],
-     "preco": 29,
-     "porUnidade": ""
-    }
-   ],
-   "menu": "Planners & Cadernos",
-   "chip": "Planners & Cadernos",
-   "passos": [
-    "<strong>Escolha o modelo</strong> — planner católico, agenda ou caderno.",
-    "<strong>Escolha o miolo</strong> — três opções de interior, apenas para o planner.",
-    "<strong>Envie inspirações</strong> de capa para desenharmos a sua.",
-    "<strong>Escolha a laminação</strong> — glossy ou fosca.",
-    "<strong>Escolha o nome</strong> do hotstamping: dourado, prata ou rosê gold."
-   ]
   }
- ],
- "prazos": {
-  "padrao": 7,
-  "havaianas": 14
- },
- "eventos": [
-  "Aniversário",
-  "Chá de bebê",
-  "Chá de panela",
-  "Despedida de solteira",
-  "Casamento",
-  "Formatura",
-  "Confraternização",
-  "Natal",
-  "Outro"
- ],
- "galeria": {
-  "eyebrow": "Entregues",
-  "titulo": "Festas que já passaram por aqui",
-  "lede": "Um recorte do que saiu do atelier. Tem muito mais no nosso Instagram.",
-  "fotos": [
-   {
-    "src": "desp-1.jpg",
-    "alt": "Placa de despedida de solteira em papel recortado"
-   },
-   {
-    "src": "papelaria-2.jpg",
-    "alt": "Placa Bridal Shower ao lado de macarons"
-   },
-   {
-    "src": "plaquinha-2.jpg",
-    "alt": "Mural de fotos personalizado da despedida"
-   },
-   {
-    "src": "toppers-3.jpg",
-    "alt": "Mesa de doces com toppers personalizados"
-   },
-   {
-    "src": "desp-2.jpg",
-    "alt": "Mesa de bridal shower com placa personalizada, flores e macarons"
-   },
-   {
-    "src": "bandeirolas-1.jpg",
-    "alt": "Varalzinho de bandeirolas na mesa de doces"
-   },
-   {
-    "src": "tags-pers-2.jpg",
-    "alt": "Tags nominais amarradas nas sacolas dos convidados"
-   },
-   {
-    "src": "galeria-helpmas.jpg",
-    "alt": "Confraternização de Natal com jogo americano, canudo e tag nominal personalizados"
-   }
-  ]
- }
 }
