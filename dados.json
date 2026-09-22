@@ -1006,5 +1006,44 @@
   "Confraternização",
   "Natal",
   "Outro"
- ]
+ ],
+ "galeria": {
+  "eyebrow": "Entregues",
+  "titulo": "Festas que já passaram por aqui",
+  "lede": "Um recorte do que saiu do atelier. Tem muito mais no nosso Instagram.",
+  "fotos": [
+   {
+    "src": "desp-1.jpg",
+    "alt": "Placa de despedida de solteira em papel recortado"
+   },
+   {
+    "src": "papelaria-2.jpg",
+    "alt": "Placa Bridal Shower ao lado de macarons"
+   },
+   {
+    "src": "plaquinha-2.jpg",
+    "alt": "Mural de fotos personalizado da despedida"
+   },
+   {
+    "src": "toppers-3.jpg",
+    "alt": "Mesa de doces com toppers personalizados"
+   },
+   {
+    "src": "desp-2.jpg",
+    "alt": "Mesa de bridal shower com placa personalizada, flores e macarons"
+   },
+   {
+    "src": "bandeirolas-1.jpg",
+    "alt": "Varalzinho de bandeirolas na mesa de doces"
+   },
+   {
+    "src": "tags-pers-2.jpg",
+    "alt": "Tags nominais amarradas nas sacolas dos convidados"
+   },
+   {
+    "src": "galeria-helpmas.jpg",
+    "alt": "Confraternização de Natal com jogo americano, canudo e tag nominal personalizados"
+   }
+  ]
+ }
 }
