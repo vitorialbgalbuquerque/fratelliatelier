@@ -43,6 +43,24 @@ collections:
             collapsed: true
             field: { name: evento, label: Evento, widget: string }
 
+          - name: galeria
+            label: "Festas que já passaram por aqui"
+            widget: object
+            collapsed: true
+            fields:
+              - { name: titulo, label: Título, widget: string }
+              - { name: eyebrow, label: "Linha pequena acima do título", widget: string, required: false }
+              - { name: lede, label: "Texto de abertura", widget: text, required: false }
+              - name: fotos
+                label: Fotos das festas
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.alt}}"
+                fields:
+                  - { name: src, label: Foto, widget: image }
+                  - { name: alt, label: "Descrição da foto", widget: string, required: false }
+
           - name: secoes
             label: Seções do site
             label_singular: Seção
